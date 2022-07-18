@@ -193,6 +193,6 @@ html .typingindicator-folder {
 	bottom: unset !important;
 }
 
-.wrapper-3NnKdC .wrapper-3Njo_c [role="group"][style*="height:"] {
+.wrapper-3NnKdC .wrapper-3Njo_c [role="group"][style^="height:"] {
 	height: unset !important;
 }
