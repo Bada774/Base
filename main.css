@@ -73,10 +73,11 @@
   overflow: hidden;
 }
 
-.withFrame-2dL45i  {
+.typeWindows-2-g3UY {
   background: var(--main-gradient) !important;
   margin-top: 0;
   padding-top: 4px;
+  border-radius: 0 0 10px 10px;
 }
 
 .tutorialContainer-1pL9QS .wrapper-28eC3z .childWrapper-1j_1ub {
@@ -782,7 +783,7 @@ path.pingForeground-2uAOZ3 {
 }
 
 
-.info-3pQQBb::after {
+.info-3pQQBb::before {
   content: "uiuiui.in";
   font-size: 14px;
   line-height: 16px;
