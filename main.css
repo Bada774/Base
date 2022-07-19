@@ -10,6 +10,9 @@
   --hover-gradient: linear-gradient(var(--hover-gradient-direction), rgb(var(--hover-first-gradient-color)),rgb(var(--hover-second-gradient-color)));
 
   --hover-gradient-t:  linear-gradient(var(--hover-gradient-direction), rgba(var(--hover-first-gradient-color), var(--hover-gradient-transparency)), rgba(var(--hover-second-gradient-color), var(--hover-gradient-transparency)));
+
+  --shadow-type-1: var(--main-background-tint) 0px 8px 24px calc(var(--window-padding) - 5px), 0 0 20px calc(var(--window-padding) + 10px) rgba(0, 0, 0, 0.2);
+  --shadow-type-2: 
 }
 
 
@@ -65,7 +68,7 @@
 #app-mount .layers-OrUESM::before {
   content: "";
   position: absolute;
-  background: linear-gradient(rgba(var(--main-background-tint), var(--main-background-transparency)), rgba(var(--main-background-tint), var(--main-background-transparency)));
+  background: linear-gradient(var(--main-background-tint), var(--main-background-tint));
   backdrop-filter: blur(var(--background-image-blur));
   width: 100%;
   height: 100%;
