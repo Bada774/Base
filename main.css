@@ -36,7 +36,7 @@
   display: flex;
   justify-content: space-around;
   border-radius: var(--window-border-radius) !important;
-  box-shadow: var(--shadow-type-1);
+  box-shadow: var(--window-shadow-style);
 }
 
 #app-mount .app-2CXKsg::before {
