@@ -788,10 +788,10 @@ path.pingForeground-2uAOZ3 {
   content: "uiuiui.in";
   font-size: 14px;
   line-height: 16px;
-  animation: uiuiuiRainbow 10s linear infinite;
+  animation: uiuiuiTextRainbow 5s linear infinite;
 }
 
-@keyframes uiuiuiRainbow {
+@keyframes uiuiuiTextRainbow {
   from {
     color: #6666ff;
   }
