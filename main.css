@@ -9,8 +9,8 @@
   --hover-gradient: linear-gradient(var(--hover-gradient-direction), var(--hover-first-gradient-color), var(--hover-second-gradient-color));
   
 
-  --shadow-type-1: 0px 8px 24px calc(var(--window-padding) - 5px) var(--main-background-tint), 0 0 20px calc(var(--window-padding) + 10px) rgba(0, 0, 0, 0.2);
-  --shadow-type-2: 5px 5px 20px calc(var(--window-padding) - 5px) var(--main-background-tint), 0 0 20px calc(var(--window-padding) + 10px) rgba(0, 0, 0, 0.2);
+  --shadow-type-1: 0px 8px 24px calc(var(--window-padding) + var(--window-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint), 0 0 20px calc(var(--window-padding) + 10px) rgba(0, 0, 0, 0.2);
+  --shadow-type-2: 5px 5px 20px calc(var(--window-padding) + var(--window-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint), 0 0 20px calc(var(--window-padding) + 10px) rgba(0, 0, 0, 0.2);
 }
 
 
