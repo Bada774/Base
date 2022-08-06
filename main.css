@@ -1,7 +1,8 @@
 /*1*/
 :root {
   --uiuiui-home: url("data:image/svg+xml,%3Csvg id='svg' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='400' height='401.35135135135135' viewBox='0, 0, 400,401.35135135135135'%3E%3Cg id='svgg'%3E%3Cpath id='path0' d='M46.464 19.475 C 31.560 23.092,18.578 33.907,11.691 48.444 L 7.432 57.432 7.042 143.919 C 6.611 239.418,7.133 247.962,14.835 271.530 C 46.350 367.970,161.586 413.383,248.256 363.518 L 255.296 359.467 246.550 346.567 C 231.108 323.791,219.658 298.050,214.113 273.649 C 212.762 267.703,211.507 262.625,211.323 262.364 C 211.140 262.104,208.669 263.738,205.833 265.996 C 173.669 291.601,128.376 278.045,114.007 238.514 C 111.757 232.323,111.492 224.340,110.843 143.243 L 110.135 54.730 105.510 46.199 C 93.677 24.375,70.151 13.727,46.464 19.475 M266.249 19.734 C 240.378 26.686,223.688 52.510,228.371 78.339 C 235.944 120.099,284.192 136.964,314.860 108.571 C 354.583 71.795,318.423 5.713,266.249 19.734 M266.249 145.410 C 236.185 153.489,224.446 176.650,228.266 220.351 C 236.149 310.528,289.154 388.255,337.035 379.850 C 382.007 371.956,395.556 323.977,363.017 287.838 C 343.230 265.861,334.663 242.957,332.436 206.081 C 331.762 194.932,330.658 183.981,329.982 181.744 C 321.626 154.090,293.538 138.076,266.249 145.410 ' stroke='none' fill-rule='evenodd'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
-  --colorized-border: linear-gradient(var(--border-gradient-direction), var(--border-first-gradient-color), var(--border-second-gradient-color));
+  --uiuiui-default-background: ;
+  --uiuiui-svg: url(https://bada774.github.io/Base/uiuiui.svg);
 
   --text-muted: var(--secondary-text-color);
 
@@ -11,6 +12,7 @@
 
   --shadow-type-1: 0px 8px 24px calc(var(--window-padding) + var(--window-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint), 0 0 20px calc(var(--window-padding) + 10px) rgba(0, 0, 0, 0.2);
   --shadow-type-2: 5px 5px 20px calc(var(--window-padding) + var(--window-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint), 0 0 20px calc(var(--window-padding) + 10px) rgba(0, 0, 0, 0.2);
+
 }
 
 
@@ -50,7 +52,7 @@
   padding-top: 0;
   overflow: hidden;
   border-radius: var(--window-border-radius);
-  border-color: var(--window-border-color);
+  border-color: var(--theme-border-color);
   border-style: var(--window-border-style);
   border-width: var(--window-border-width);
   box-shadow: var(--window-shadow-style);
@@ -59,7 +61,7 @@
 #app-mount .layer-86YKbF::before {
   content: "";
   position: absolute;
-  background: linear-gradient(var(--main-background-tint, #00000001), var(--main-background-tint, #00000001)), var(--background-image);
+  background: linear-gradient(var(--main-background-tint, #00000001), var(--main-background-tint, #00000001)), var(--background-image, var(--uiuiui-default-background));
   background-position: var(--background-image-position, center);
   background-size: var(--background-image-size, cover);
   background-repeat: var(--background-image-repeat, no-repeat);
@@ -94,6 +96,7 @@
 .userPopout-2j1gM4  {
   position: relative;
   border-radius: var(--small-user-popout-border-radius);
+  border-color: var(--theme-border-color);
   background: var(--image-small-user-popout-background);
   background-position: var(--image-small-user-popout-background-position);
   background-size: var(--image-small-user-popout-background-size);
@@ -806,8 +809,8 @@ path.pingForeground-2uAOZ3 {
   height: 16px;
   content: "";
   animation: uiuiuiLogoRainbow 5s linear infinite;
-  -webkit-mask-image:  url(https://bada774.github.io/Base/uiuiui.svg);
-  mask-image:  url(https://bada774.github.io/Base/uiuiui.svg);
+  -webkit-mask-image:  url(--uiuiui-svg);
+  mask-image:  url(--uiuiui-svg);
 }
 
 @keyframes uiuiuiLogoRainbow {
