@@ -203,20 +203,6 @@
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.mentioned-xhSam7:before {
-  background-color: var(--mention-sider);
-}
-
-.mentioned-xhSam7 {
-  position: relative;
-  background-color: var(--mention-color);
-}
-
-.markup-2BOw-j code {
-  background: var(--code-markup-background-color);
-  border: var(--code-markup-border);
-}
-
 .blockquoteDivider-2hH8H6 {
   background-color: var(--main-color);
 }
@@ -393,14 +379,6 @@ html {
   background: var(--main-color) !important;
 }
 
-.barFill-23-gu- {
-  background: var(--main-hover-color);
-}
-
-.bar-2Qqk5Z.sliderBar-3DezvM.speaking-2bFhO4{
-  background: var(--main-hover-color);
-}
-
 .select-2fjwPw.lookFilled-22uAsw {
   background: var(--main-color);
 }   
@@ -436,10 +414,6 @@ html {
   color: var(--main-text-color);
 }
 
-.actionButton-uPB8Fs:hover {
-  background: var(--main-hover-color);
-}
-
 .shinyButton-3uFlM-.button-1PXUl0.button-38aScr.lookFilled-1Gx00P.colorGreen-29iAKY.sizeMedium-1AC_Sl.grow-q77ONN,
 .shinyButton-3uFlM-.button-1PXUl0.button-38aScr.lookFilled-1Gx00P.colorPrimary-3b3xI6.sizeMedium-1AC_Sl.grow-q77ONN {
   background: var(--main-color);
@@ -455,10 +429,6 @@ html {
 
 ::-webkit-input-placeholder, body, button, input, select, textarea {
 font-family: var(--font, "Whitney");
-}
-
-.grid-1nZz7S {
-  background: var(--link-viewer-background-color);
 }
 
 .anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.embedLink-1G1K1D,
@@ -488,17 +458,9 @@ font-family: var(--font, "Whitney");
   background: var(--new-message-bar);
 }
 
-.bar-30k2ka.unreadBar-3t3sYc.mention-1f5kbO.active-1SSsBb {
-  background: var(--mention-color);
-}
-
 .followButton-L6L-Us.button-38aScr.lookFilled-1Gx00P.colorPrimary-3b3xI6.sizeMin-1mJd1x.grow-q77ONN {
   background: var(--main-color);
   color: var(--main-text-color);
-}
-
-.roleMention-2Bj0ju.desaturate-qhyunI.wrapper-3WhCwL.mention {
-  background: var(--mention-color);
 }
 
 .searchBar-3dMhjb {
