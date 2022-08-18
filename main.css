@@ -148,11 +148,11 @@
 }
 
 .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
-  background: var(--hover-gradient);
+  background: var(--hover-gradient) !important;
 }
 
-#theme-dark .markdown-19oyJN,
-#theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo {
+.theme-dark .markdown-19oyJN,
+.theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo {
   color: var(--secondary-text-color) !important;
 }
 
