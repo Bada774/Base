@@ -148,23 +148,18 @@
 }
 
 .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
-  background-color: var(--hover-gradient);
-}
-
-.lookFilled-yCfaCM.colorBrand-I6CyqQ {
-  color: var(--main-text-color);
-  background-color: var(--main-gradient);
+  background: var(--hover-gradient);
 }
 
 #theme-dark .markdown-19oyJN,
 #theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo {
-  color: var(--secondary-text-color);
+  color: var(--secondary-text-color) !important;
 }
 
 .lookFilled-yCfaCM.colorBrand-I6CyqQ {
   color: var(--main-text-color);
   background: var(--main-gradient);
-  border-radius: var(--big-popout-border-radius);
+  border-radius: var(--interactive-border-radius);
 }
 
 .body-2wLx-E.thin-31rlnD.scrollerBase-_bVAAt,
