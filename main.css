@@ -142,6 +142,31 @@
   height: 100%;
 }
 
+.footer-31IekZ {
+  border-radius: 0 0 var(--big-popout-border-radius) var(--big-popout-border-radius);
+  background-color: transparent;
+}
+
+.lookFilled-yCfaCM.colorBrand-I6CyqQ {
+  color: var(--main-text-color);
+  background-color: var(--main-gradient);
+}
+
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
+  background-color: var(--hover-gradient);
+}
+
+.markdown-19oyJN,
+.lookLink-15mFoz.colorPrimary-2AuQVo {
+  color: var(--secondary-text-color);
+}
+
+.lookFilled-yCfaCM.colorBrand-I6CyqQ {
+  color: var(--main-text-color);
+  background: var(--main-gradient);
+  border-radius: var(--interactive-border-radius);
+}
+
 .body-2wLx-E.thin-31rlnD.scrollerBase-_bVAAt,
 .headerTop-2cWpdB, .banner-1YaD3N.popoutBanner-3cqRD9, .bodyInnerWrapper-2bQs1k  {
   border-bottom: none;
