@@ -143,6 +143,18 @@
   overflow: hidden;
 }
 
+.modalHeader-gQTY3L {
+  border-radius: var(--big-popout-border-radius) var(--big-popout-border-radius) 0 0;
+}
+
+.root-2s1-ri > * {
+  background: transparent;
+}
+
+.breadcrumbsWrapper--2LhnQ {
+  z-index: 0;
+}
+
 .footer-31IekZ {
   border-radius: 0 0 var(--big-popout-border-radius) var(--big-popout-border-radius);
   background-color: transparent;
@@ -157,10 +169,12 @@
   color: var(--secondary-text-color) !important;
 }
 
-.lookFilled-yCfaCM.colorBrand-I6CyqQ {
+.lookFilled-yCfaCM.colorBrand-I6CyqQ,
+.planOptionDiscount-2nex9n {
   color: var(--main-text-color);
   background: var(--main-gradient);
   border-radius: var(--interactive-border-radius);
+  border: var(--theme-border);
 }
 
 .body-2wLx-E.thin-31rlnD.scrollerBase-_bVAAt,
