@@ -546,8 +546,11 @@ html {
   color: var(--secondary-text-color);
 }
 
-.botTagCozy-1fFsZk.botTag-1un5a6.botTagRegular-2HEhHi.botTag-2WPJ74.rem-2m9HGf {
+span[class*="botTag"] {
   background: var(--main-color);
+  border-radius: var(--interactive-border-radius);
+  border: var(--theme-border);
+  color: var(--main-text-color);
 }
 
 .bar-30k2ka.unreadBar-3t3sYc.unread-1xRYoj.active-1SSsBb {
