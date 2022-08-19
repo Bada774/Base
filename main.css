@@ -14,6 +14,25 @@
   --shadow-type-1: 0px 8px 24px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint), 0 0 20px calc(var(--window-padding) + 10px) rgba(0, 0, 0, 0.2);
   --shadow-type-2: 5px 5px 20px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint), 0 0 20px calc(var(--window-padding) + 10px) rgba(0, 0, 0, 0.2);
 
+  /*Overridden system variables*/
+  --divider-color: var(--theme-border-color);
+  --status-positive-text: var(--main-text-color);
+  --background-primary: #00000060;
+  --background-secondary: #00000060;
+  --background-secondary-alt: #00000060;
+  --deprecated-store-bg: var(--background-tertiary);
+  --channel-icon: var(--main-text-color);
+  --background-tertiary: #00000020;
+  --channel-text-area-placeholder: var(--secondary-text-color);
+  --brand-experiment: var(--main-gradient);
+  --channels-default: var(--main-text-color);
+  --header-primary: var(--main-text-color);
+  --header-secondary: var(--secondary-text-color);
+  --text-normal: var(--main-text-color);
+  --interactive-active: var(--main-text-color);
+  --interactive-hover: var(--main-text-color);
+  --interactive-normal: var(--main-text-color);
+  --background-modifier-selected: var(--main-gradient);  
 }
 
 
