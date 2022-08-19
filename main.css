@@ -15,7 +15,6 @@
   --shadow-type-2: 5px 5px 20px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint), 0 0 20px calc(var(--window-padding) + 10px) rgba(0, 0, 0, 0.2);
 
   /*Overridden system variables*/
-  --divider-color: var(--theme-border-color);
   --status-positive-text: var(--main-text-color);
   --background-primary: #00000060;
   --background-secondary: #00000060;
@@ -33,6 +32,7 @@
   --interactive-hover: var(--main-text-color);
   --interactive-normal: var(--main-text-color);
   --background-modifier-selected: var(--main-gradient);  
+  --input-background: #00000060;
 }
 
 
@@ -115,7 +115,11 @@
 
 .userPopout-2j1gM4,
 .container-2ebMPP,
-.messagesPopoutWrap-3zryHW  {
+.messagesPopoutWrap-3zryHW,
+#popout_209 > *,
+div[role="menu"],
+#popout_733,
+.contentWrapper-3vHNP2  {
   position: relative;
   background: var(--small-popout-background-image);
   background-position: var(--small-popout-background-image-position);
@@ -127,7 +131,11 @@
 
 .userPopout-2j1gM4::before,
 .container-2ebMPP::before,
-.messagesPopoutWrap-3zryHW::before {
+.messagesPopoutWrap-3zryHW::before,
+#popout_209::before,
+div[role="menu"]::before,
+#popout_733::before,
+.contentWrapper-3vHNP2::before {
   content: "";
   position: absolute;
   background: linear-gradient(var(--small-popout-background-tint),var(--small-popout-background-tint));
@@ -141,6 +149,11 @@
   background: var(--small-popout-background-tint);
 }
 
+#popout_209 > *,
+#popout_209::before {
+  right: var(--window-padding);
+}
+
 .root-g14mjS  {
   position: relative;
   background: var(--big-popout-background-image);
@@ -149,6 +162,7 @@
   background-repeat: var(--big-popout-background-image-repeat);
   border: var(--theme-border);
   border-radius: var(--big-popout-border-radius);
+  overflow: hidden;
 }
 
 .root-g14mjS::before{
@@ -159,7 +173,6 @@
   border-radius: var(--big-popout-border-radius);
   width: 100%;
   height: 100%;
-  overflow: hidden;
 }
 
 .modalHeader-gQTY3L {
@@ -244,6 +257,9 @@
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+.scrollableContainer-15eg7h {
+  border-radius: var(--interactive-border-radius);
+}
 
 
 
@@ -508,7 +524,7 @@ html {
 }
 
 ::-webkit-input-placeholder, body, button, input, select, textarea {
-font-family: var(--font, "Whitney");
+  font-family: var(--font, "Whitney");
 }
 
 .anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.embedLink-1G1K1D,
@@ -851,8 +867,8 @@ path.pingForeground-2uAOZ3 {
   height: 16px;
   content: "";
   animation: uiuiuiLogoRainbow 5s linear infinite;
-  -webkit-mask-image:  url(--uiuiui-svg);
-  mask-image:  url(--uiuiui-svg);
+  -webkit-mask-image:  var(--uiuiui-svg);
+  mask-image: var(--uiuiui-svg);
 }
 
 @keyframes uiuiuiLogoRainbow {
