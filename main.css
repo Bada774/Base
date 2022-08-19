@@ -145,11 +145,6 @@ div[role="menu"]::before,
   background: var(--small-popout-background-tint);
 }
 
-#popout_209 > *,
-#popout_209::before {
-  right: var(--window-padding);
-}
-
 .root-g14mjS  {
   position: relative;
   background: var(--big-popout-background-image);
@@ -202,7 +197,6 @@ div[role="menu"]::before,
   color: var(--main-text-color);
   background: var(--main-gradient);
   border-radius: var(--interactive-border-radius);
-  border: var(--theme-border);
 }
 
 .body-2wLx-E.thin-31rlnD.scrollerBase-_bVAAt,
@@ -546,7 +540,6 @@ span[class*="botTag"],
 .rem-3kT9wc[class*="botTag"] {
   background: var(--main-color);
   border-radius: var(--interactive-border-radius);
-  border: var(--theme-border);
   color: var(--main-text-color);
 }
 
