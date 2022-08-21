@@ -516,12 +516,15 @@ html {
 
 
 /*---------Иконки---------*/
+
 #app-mount .wrapper-1VLyxH {
   border-radius: var(--avatar-shape);
 }
+
 #app-mount .wrapper-1VLyxH svg:not(:root) {
   overflow: visible;
 }
+
 #app-mount .wrapper-1VLyxH foreignObject {
   -webkit-mask: none;
           mask: none;
@@ -529,19 +532,24 @@ html {
 #app-mount .wrapper-1VLyxH .dots-1BwzZQ circle {
   cy: -8 !important;
 }
+
 #app-mount .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(1) {
   cx: -8.5 !important;
 }
+
 #app-mount .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(2) {
   cx: -2.25 !important;
 }
+
 #app-mount .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(3) {
   cx: 4 !important;
 }
+
 #app-mount .wrapper-1VLyxH .mask-1FEkla > rect[x="22"] {
   x: 0;
   y: 0;
 }
+
 #app-mount .wrapper-1VLyxH .pointerEvents-9SZWKj[x="14.5"] {
   fill: rgba(0, 0, 0, 0.5) !important;
   width: 30px;
@@ -549,17 +557,21 @@ html {
   x: 1;
   y: 1;
 }
+
 #app-mount .wrapper-1VLyxH img, #app-mount .wrapper-1VLyxH.avatar-AvHqJA {
   border-radius: var(--avatar-shape);
 }
+
 #app-mount .wrapper-1VLyxH svg[width="25"][height="15"] > rect {
   rx: calc(var(--avatar-shape) * 2) !important;
   ry: calc(var(--avatar-shape) * 2) !important;
 }
+
 #app-mount .wrapper-1VLyxH[style*="80px"] svg.cursorDefault--wfhy5 rect, #app-mount .wrapper-1VLyxH[style*="120px"] svg.cursorDefault--wfhy5 rect {
   ry: calc(var(--avatar-shape) * 3.3);
   rx: calc(var(--avatar-shape) * 3.3);
 }
+
 #app-mount .wrapper-1VLyxH rect {
   x: 0;
   y: 0;
@@ -573,6 +585,7 @@ html {
   fill: transparent !important;
   stroke-width: var(--small-width);
 }
+
 #app-mount .wrapper-1VLyxH rect[fill="#43b581"], #app-mount .wrapper-1VLyxH rect[fill="#3ba55c"], #app-mount .wrapper-1VLyxH rect[fill="rgba(67, 181, 129, 1)"], #app-mount .wrapper-1VLyxH rect[mask*=online], #app-mount .wrapper-1VLyxH rect[fill*="hsl(139"], .status-12NUUC rect[fill*="hsl=(139"] {
   stroke: var(--online-status-color);
 }
