@@ -117,7 +117,8 @@
 .container-2ebMPP,
 .messagesPopoutWrap-3zryHW,
 div[role="menu"],
-.contentWrapper-3vHNP2  {
+.contentWrapper-3vHNP2,
+.popout-1KHNAq  {
   position: relative;
   background: var(--small-popout-background-image);
   background-position: var(--small-popout-background-image-position);
@@ -131,7 +132,8 @@ div[role="menu"],
 .container-2ebMPP::before,
 .messagesPopoutWrap-3zryHW::before,
 div[role="menu"]::before,
-.contentWrapper-3vHNP2::before {
+.contentWrapper-3vHNP2::before,
+.popout-1KHNAq::before {
   content: "";
   position: absolute;
   background: linear-gradient(var(--small-popout-background-tint),var(--small-popout-background-tint));
