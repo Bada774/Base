@@ -20,6 +20,7 @@
 
 .theme-dark {
   --status-positive-text: var(--main-text-color);
+  --deprecated-card-bg: #00000060;
   --deprecated-store-bg: var(--background-tertiary);
   --channel-text-area-placeholder: var(--secondary-text-color);
   --brand-experiment: var(--main-gradient);
@@ -32,6 +33,7 @@
   --interactive-active: var(--main-text-color);
   --interactive-hover: var(--main-text-color);
   --interactive-normal: var(--main-text-color);
+  --interactive-muted: var(--secondary-text-color);
   --background-modifier-selected: var(--main-gradient);  
   --input-background: #00000060;
   --background-primary: #00000060;
