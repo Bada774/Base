@@ -154,6 +154,7 @@ div[role="menu"],
 .popout-1KHNAq,
 .container-18GwIk  {
   position: relative;
+  background: var(--small-popout-background-tint);
   border: var(--theme-border);
   border-radius: var(--small-popout-border-radius);
   overflow: hidden !important;
@@ -188,9 +189,11 @@ div[role="menu"]::before,
 
 .root-g14mjS {
   position: relative;
+  background: var(--big-popout-background-tint);
   border: var(--theme-border);
   border-radius: var(--big-popout-border-radius);
   overflow: hidden !important;
+  
 }
 
 .root-g14mjS::before {
