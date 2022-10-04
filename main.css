@@ -1,4 +1,3 @@
-/*!!!!!!*/
 :root {
   --uiuiui-home: url("data:image/svg+xml,%3Csvg id='svg' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='400' height='401.35135135135135' viewBox='0, 0, 400,401.35135135135135'%3E%3Cg id='svgg'%3E%3Cpath id='path0' fill='white' d='M46.464 19.475 C 31.560 23.092,18.578 33.907,11.691 48.444 L 7.432 57.432 7.042 143.919 C 6.611 239.418,7.133 247.962,14.835 271.530 C 46.350 367.970,161.586 413.383,248.256 363.518 L 255.296 359.467 246.550 346.567 C 231.108 323.791,219.658 298.050,214.113 273.649 C 212.762 267.703,211.507 262.625,211.323 262.364 C 211.140 262.104,208.669 263.738,205.833 265.996 C 173.669 291.601,128.376 278.045,114.007 238.514 C 111.757 232.323,111.492 224.340,110.843 143.243 L 110.135 54.730 105.510 46.199 C 93.677 24.375,70.151 13.727,46.464 19.475 M266.249 19.734 C 240.378 26.686,223.688 52.510,228.371 78.339 C 235.944 120.099,284.192 136.964,314.860 108.571 C 354.583 71.795,318.423 5.713,266.249 19.734 M266.249 145.410 C 236.185 153.489,224.446 176.650,228.266 220.351 C 236.149 310.528,289.154 388.255,337.035 379.850 C 382.007 371.956,395.556 323.977,363.017 287.838 C 343.230 265.861,334.663 242.957,332.436 206.081 C 331.762 194.932,330.658 183.981,329.982 181.744 C 321.626 154.090,293.538 138.076,266.249 145.410 ' stroke='none' fill-rule='evenodd'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
   --uiuiui-default-background: ;
@@ -18,7 +17,8 @@
   --chat-embed: var(--background-secondary);
 }
 
-.theme-dark {
+.theme-dark,
+.theme-light {
   --status-positive-text: var(--main-text-color);
   --deprecated-card-bg: rgba(0, 0, 0, 0.6);
   --deprecated-store-bg: var(--background-tertiary);
@@ -87,7 +87,7 @@ html {
   font-size: var(--font-size) !important;
 }
 
-::-webkit-input-placeholder, body, button, input, select, textarea, span, div, p, h1, h2, h3 {
+::-webkit-input-placeholder, body, button, input, select, textarea, span, div, p, h1, h2, h3, h4, h5 {
   font-family: var(--font, "Whitney") !important;
 }
 
@@ -165,7 +165,8 @@ html {
 div[role="menu"],
 .contentWrapper-3vHNP2,
 .popout-1KHNAq,
-.container-18GwIk  {
+.container-18GwIk,
+.container-26tbgC {
   position: relative;
   background: var(--small-popout-background-tint);
   border: var(--theme-border);
@@ -179,7 +180,8 @@ div[role="menu"],
 div[role="menu"]::before,
 .contentWrapper-3vHNP2::before,
 .popout-1KHNAq::before,
-.container-18GwIk::before {
+.container-18GwIk::before,
+.container-26tbgC::before {
   content: "";
   position: absolute;
   background: linear-gradient(var(--small-popout-background-tint), var(--small-popout-background-tint)), var(--small-popout-background-image);
@@ -194,6 +196,10 @@ div[role="menu"]::before,
   filter: blur(var(--small-popout-background-blur));
   transform: translate(var(--small-popout-background-blur), calc(var(--small-popout-background-blur) / -1));
   z-index: -1;
+}
+
+.container-26tbgC {
+  border: none;
 }
 
 .headerPlaying-j0WQBV {
@@ -389,7 +395,8 @@ div[class*="defaultIndicator"],
 .role-2TIOKu,
 .wrapper-2olG5t,
 .upload-vLbqu-,
-.lookFilled-yCfaCM.colorPrimary-2AuQVo  {
+.lookFilled-yCfaCM.colorPrimary-2AuQVo,
+.circleIconButton-1VxDrg {
   color: var(--main-text-color);
   background: var(--main-gradient);
   border-radius: var(--interactive-border-radius);
@@ -413,6 +420,16 @@ button[class*="navButtonActive"],
 .wrapper-2vIMkT {
   background: var(--main-gradient);
   border-radius: var(--interactive-border-radius) !important;
+}
+
+.circleIconButton-1VxDrg {
+  background: var(--main-gradient);
+  color: var(--main-text-color);
+}
+
+.circleIconButton-1VxDrg[class*="selected"] {
+  background:  var(--hover-gradient);
+  color: var(--secondary-text-color);
 }
 
 div[class*="tooltipPointer"],
@@ -494,7 +511,8 @@ use[href*="badge"],
 .container-30qY7E,
 .container-3jbRo5,
 .key-N5VmHN,
-.bd-switch-body {
+.bd-switch-body,
+.container-x8Y1ix {
   border-radius: var(--interactive-border-radius);
 }
 
@@ -584,7 +602,7 @@ use[href*="badge"],
 }
 
 #app-mount .wrapper-1VLyxH {
-  border-radius: var(--avatar-shape);
+  border-radius: var(--avatar-border-radius);
 }
 
 #app-mount .wrapper-1VLyxH svg:not(:root) {
@@ -625,17 +643,17 @@ use[href*="badge"],
 }
 
 #app-mount .wrapper-1VLyxH img, #app-mount .wrapper-1VLyxH.avatar-AvHqJA {
-  border-radius: var(--avatar-shape);
+  border-radius: var(--avatar-border-radius);
 }
 
 #app-mount .wrapper-1VLyxH svg[width="25"][height="15"] > rect {
-  rx: calc(var(--avatar-shape) * 2) !important;
-  ry: calc(var(--avatar-shape) * 2) !important;
+  rx: calc(var(--avatar-border-radius) * 2) !important;
+  ry: calc(var(--avatar-border-radius) * 2) !important;
 }
 
 #app-mount .wrapper-1VLyxH[style*="80px"] svg.cursorDefault--wfhy5 rect, #app-mount .wrapper-1VLyxH[style*="120px"] svg.cursorDefault--wfhy5 rect {
-  ry: calc(var(--avatar-shape) * 3.3);
-  rx: calc(var(--avatar-shape) * 3.3);
+  ry: calc(var(--avatar-border-radius) * 3.3);
+  rx: calc(var(--avatar-border-radius) * 3.3);
 }
 
 #app-mount .wrapper-1VLyxH rect {
@@ -646,8 +664,8 @@ use[href*="badge"],
   -webkit-mask: none;
           mask: none;
   display: block;
-  rx: var(--avatar-shape);
-  ry: var(--avatar-shape);
+  rx: var(--avatar-border-radius);
+  ry: var(--avatar-border-radius);
   fill: transparent !important;
   stroke-width: var(--small-width);
 }
@@ -701,8 +719,8 @@ use[href*="badge"],
   height: 40px;
   x: -19;
   y: -20;
-  ry: calc(var(--avatar-shape) * 3.3);
-  rx: calc(var(--avatar-shape) * 3.3);
+  ry: calc(var(--avatar-border-radius) * 3.3);
+  rx: calc(var(--avatar-border-radius) * 3.3);
 }
 
 #app-mount .wrapper-1VLyxH[style*="40px"] foreignObject[mask*=mobile] img {
@@ -721,8 +739,8 @@ use[href*="badge"],
 }
 
 #app-mount .wrapper-1VLyxH[style*="80px"] img {
-  -webkit-clip-path: inset(calc(var(--medium-spacing) + 1px) calc(var(--medium-spacing) + 1px) round var(--avatar-shape));
-          clip-path: inset(calc(var(--medium-spacing) + 1px) calc(var(--medium-spacing) + 1px) round var(--avatar-shape));
+  -webkit-clip-path: inset(calc(var(--medium-spacing) + 1px) calc(var(--medium-spacing) + 1px) round var(--avatar-border-radius));
+          clip-path: inset(calc(var(--medium-spacing) + 1px) calc(var(--medium-spacing) + 1px) round var(--avatar-border-radius));
 }
 
 #app-mount .wrapper-1VLyxH[style*="120px"] svg.cursorDefault--wfhy5 rect {
@@ -737,13 +755,13 @@ use[href*="badge"],
 }
 
 #app-mount .wrapper-1VLyxH[style*="120px"] img {
-  -webkit-clip-path: inset(calc(var(--large-spacing) + 1px) calc(var(--large-spacing) + 1px) round var(--avatar-shape));
-          clip-path: inset(calc(var(--large-spacing) + 1px) calc(var(--large-spacing) + 1px) round var(--avatar-shape));
+  -webkit-clip-path: inset(calc(var(--large-spacing) + 1px) calc(var(--large-spacing) + 1px) round var(--avatar-border-radius));
+          clip-path: inset(calc(var(--large-spacing) + 1px) calc(var(--large-spacing) + 1px) round var(--avatar-border-radius));
 }
 
 #app-mount .wrapper-1VLyxH:not([style*="80px;"]):not([style*="120px;"]):not([style*="16px"]) > svg > foreignObject:not(:only-child) img {
-  -webkit-clip-path: inset(calc(var(--small-spacing) + 1px) calc(var(--small-spacing) + 1px) round var(--avatar-shape));
-          clip-path: inset(calc(var(--small-spacing) + 1px) calc(var(--small-spacing) + 1px) round var(--avatar-shape));
+  -webkit-clip-path: inset(calc(var(--small-spacing) + 1px) calc(var(--small-spacing) + 1px) round var(--avatar-border-radius));
+          clip-path: inset(calc(var(--small-spacing) + 1px) calc(var(--small-spacing) + 1px) round var(--avatar-border-radius));
 }
 
 #app-mount .wrapper-1VLyxH[style="width: 16px; height: 16px;"] rect {
@@ -812,7 +830,7 @@ use[href*="badge"],
   left: 2px;
   width: calc(100% - 4px);
   height: calc(100% - 4px);
-  border-radius: var(--avatar-shape);
+  border-radius: var(--avatar-border-radius);
   box-shadow: inset 0 0 0 2px var(--speaking-color, #57d39b), inset 0 0 0 3px var(--background-secondary);
 }
 
@@ -830,7 +848,7 @@ use[href*="badge"],
 }
 
 #app-mount .avatarHintInner-2HUAWj {
-  border-radius: var(--avatar-shape) !important;
+  border-radius: var(--avatar-border-radius) !important;
   padding-top: 0;
   width: calc(100% - var(--medium-width) - var(--medium-spacing) + 2px);
   height: calc(100% - var(--medium-width) - var(--medium-spacing) + 2px);
