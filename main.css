@@ -315,7 +315,8 @@ div[role="menu"]::before,
 .container-3hZ-gs,
 .bd-switch.bd-switch-checked .bd-switch-body,
 .theme-dark .children-3xh0VB:after,
-.bd-addon-list .bd-addon-header {
+.bd-addon-list .bd-addon-header,
+.div[class*="keyboardShortcutsModal"] {
   background: transparent !important;
 }
 
@@ -376,7 +377,9 @@ div[class*="muted"],
 .input-2g-os5::placeholder,
 .theme-dark .subtitle-3v29zT,
 .discordTag-2ke74W.nameTag-H6kSJ0,
-.bd-meta {
+.bd-meta,
+.keybindDescription-oXh6w_,
+.div[class*="modalSubtitle"] {
   color: var(--secondary-text-color) !important;
 }
 
