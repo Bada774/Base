@@ -73,16 +73,16 @@ body.folderContentIsOpen-zz6FgW .titleBar-1it3bQ.typeMacOS-3V4xXE .macButtons-eI
 .wrapper-1_HaEi .scroller-3X7KbA > div[style*="height"]:not([class]) {
 	height: calc(1px * var(--guildsize) * (58/50)) !important;
 }
-.wrapper-1_HaEi .upperBadge-1V6Iyi .base-3IDx3L {
+.wrapper-1_HaEi .upperBadge-1V6Iyi {
 	transform: translate(calc(1.5px * ((50 - var(--guildsize))/10)), calc(-1.5px * ((50 - var(--guildsize))/10))) scale(calc(var(--guildsize)/50)) !important;
 }
-.wrapper-1_HaEi .upperLeftBadge-e35IpL .base-3IDx3L {
+.wrapper-1_HaEi .upperLeftBadge-e35IpL {
 	transform: translate(calc(-1.5px * ((50 - var(--guildsize))/10)), calc(-1.5px * ((50 - var(--guildsize))/10))) scale(calc(var(--guildsize)/50)) !important;
 }
-.wrapper-1_HaEi .lowerBadge-3WTshO .base-3IDx3L {
+.wrapper-1_HaEi .lowerBadge-3WTshO {
 	transform: translate(calc(1.5px * ((50 - var(--guildsize))/10)), calc(1.5px * ((50 - var(--guildsize))/10))) scale(calc(var(--guildsize)/50)) !important;
 }
-.wrapper-1_HaEi .lowerLeftBadge-zr4T_9 .base-3IDx3L {
+.wrapper-1_HaEi .lowerLeftBadge-zr4T_9 {
 	transform: translate(calc(-1.5px * ((50 - var(--guildsize))/10)), calc(1.5px * ((50 - var(--guildsize))/10))) scale(calc(var(--guildsize)/50)) !important;
 }
 .wrapper-1_HaEi .wrapper-z5ab_q {
