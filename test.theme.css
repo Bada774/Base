@@ -12,21 +12,24 @@
 
 @import url(https://bada774.github.io/Base/main.css);
 @import url(https://bada774.github.io/Base/colums.css);
+/* @import url(https://bada774.github.io/Base/horizontalServer.css); */
+@import url(https://bada774.github.io/Base/avatars.css);
 :root {
   /*1.	Настройки окна*/
 
 
     --window-padding: 20px;
+    --theme-border-color:#FF00AF; 
     --window-border-radius: 30px;
     --theme-border-width: 3px;
     --theme-border-style: solid;
     --window-shadow-style: var(--shadow-type-2);
     --window-shadow-width: 20px;
-    --interactive-border-radius: 20px;
+    --interactive-border-radius: 30px;
 
   /*2.	Настройки изображений*/
     /*2.1	Параметры главного фонового изображения*/
-      /* --background-image: url(https://i.imgur.com/WaG1PAu.gif); */
+      --background-image: url(https://i.imgur.com/WaG1PAu.gif);
       --background-image-position: center;
       --background-image-size: cover;
       --background-image-repeat: no-repeat;
@@ -34,7 +37,7 @@
       --background-image-blur: 10px;
 
     /*2.2	Параметры изображения кнопки “Главная”*/
-      /* --image-home-icon: url(https://99px.ru/sstorage/86/2018/09/image_861609180322028143900.gif); */
+      --image-home-icon: url(https://99px.ru/sstorage/86/2018/09/image_861609180322028143900.gif);
       --image-home-icon-position: top;
       --image-home-icon-size: 100%; 
 
@@ -65,7 +68,7 @@
       --hover-gradient-direction: to top;
       --hover-first-gradient-color: red;
       --hover-second-gradient-color: orange;
-      --theme-border-color:#FF00AF; 
+    
     
   /*4.  Настройки текста*/
     /*4.1 Шрифты*/
@@ -74,13 +77,12 @@
     /*4.2 Цвет текста*/
     --main-text-color: #FFFFFF;
     --secondary-text-color: #00FF00;
-    --text-link: #ffffff;
+    --text-link: #ffffff ;
     
     
   /*5.	Аватарки и статусы пользователей*/
     /*5.1	Аватарки*/
-    --avatar-border-radius: 22.5%;
-    --avarar-border-radius: 22.5%;
+    --avatar-border-radius: 10px;
     --small-width: 2.5px;
     --medium-width: 2.5px;
     --large-width: 2.5px;
@@ -98,9 +100,14 @@
     --phone-icon-visibility: hidden;
     --phone-icon-color: #FF00AF;
   /*6.	Вертикальный серверный список*/
-    --server-list-width: 65px;
-    --columns:1;
-    --guildsize: 50;
-    --guildgap: 3;
-    --aligndms: 0;
+    --columns:2;
+    --guildsize:50;
+    --guildgap: 10;
+  /*7. Горизонтальный серверный список*/
+  --server-icon-size: 35px; /*(--server-size);*/
+  --server-spacing: 10px;
+  --server-direction: column; 
+  --server-alignment: flex-start;
 }
+
+
