@@ -42,7 +42,7 @@
   --background-tertiary: rgba(0, 0, 0, 0.2);
   --background-floating: transparent;
   --logo-primary: var(--main-text-color);
-  --background-mentioned: var(--small-popout-background-tint);
+  --background-mentioned: var(--small-popout-background-tint) !;
   --text-positive: var(--first-gradient-color);
   --info-positive-foreground: var(--first-gradient-color);
 }
@@ -166,7 +166,8 @@ div[role="menu"],
 .contentWrapper-3vHNP2,
 .popout-1KHNAq,
 .container-18GwIk,
-.container-26tbgC {
+.container-26tbgC,
+.container-JMJRDf {
   position: relative;
   background: var(--small-popout-background-tint);
   border: var(--theme-border);
@@ -181,7 +182,8 @@ div[role="menu"]::before,
 .contentWrapper-3vHNP2::before,
 .popout-1KHNAq::before,
 .container-18GwIk::before,
-.container-26tbgC::before {
+.container-26tbgC::before,
+.container-JMJRDf::before {
   content: "";
   position: absolute;
   background: linear-gradient(var(--small-popout-background-tint), var(--small-popout-background-tint)), var(--small-popout-background-image);
@@ -198,7 +200,8 @@ div[role="menu"]::before,
   z-index: -1;
 }
 
-.container-26tbgC {
+.container-26tbgC,
+.container-JMJRDf {
   border: none;
 }
 
@@ -316,7 +319,10 @@ div[role="menu"]::before,
 .bd-switch.bd-switch-checked .bd-switch-body,
 .theme-dark .children-3xh0VB:after,
 .bd-addon-list .bd-addon-header,
-.div[class*="keyboardShortcutsModal"] {
+.div[class*="keyboardShortcutsModal"],
+.member-48YF_l,
+.members-3WRCEx,
+.messages-23can0 {
   background: transparent !important;
 }
 
@@ -543,7 +549,7 @@ use[href*="badge"],
 .emojiItem-277VFM.emojiItemSelected-2Lg50V,
 .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover,
 .interactive-1vLZ_I:hover,
-.content-1gYQeQ:hover,
+.wrapper-NhbLHG:hover .content-1gYQeQ,
 .actionButton-3-B2x-:hover,
 .button-3bklZh:hover {
   background: var(--hover-gradient) !important;
