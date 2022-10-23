@@ -1,5 +1,5 @@
 :root {
-  --server-container: calc(var(--server-icon-size) + 10px);
+  --server-container: calc(var(--server-icon-size) + 20px);
 }
 
 #app-mount .app-3xd6d0 .base-2jDfDU {
