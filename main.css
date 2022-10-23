@@ -608,71 +608,6 @@ use[href*="badge"],
   border-radius: var(--avatar-border-radius);
 }
 
-#app-mount .wrapper-1VLyxH svg:not(:root) {
-  overflow: visible;
-}
-
-#app-mount .wrapper-1VLyxH foreignObject {
-  -webkit-mask: none;
-          mask: none;
-}
-#app-mount .wrapper-1VLyxH .dots-1BwzZQ circle {
-  cy: -8 !important;
-}
-
-#app-mount .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(1) {
-  cx: -8.5 !important;
-}
-
-#app-mount .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(2) {
-  cx: -2.25 !important;
-}
-
-#app-mount .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(3) {
-  cx: 4 !important;
-}
-
-#app-mount .wrapper-1VLyxH .mask-1FEkla > rect[x="22"] {
-  x: 0;
-  y: 0;
-}
-
-#app-mount .wrapper-1VLyxH .pointerEvents-9SZWKj[x="14.5"] {
-  fill: rgba(0, 0, 0, 0.5) !important;
-  width: 30px;
-  height: 30px;
-  x: 1;
-  y: 1;
-}
-
-#app-mount .wrapper-1VLyxH img, #app-mount .wrapper-1VLyxH.avatar-AvHqJA {
-  border-radius: var(--avatar-border-radius);
-}
-
-#app-mount .wrapper-1VLyxH svg[width="25"][height="15"] > rect {
-  rx: calc(var(--avatar-border-radius) * 2) !important;
-  ry: calc(var(--avatar-border-radius) * 2) !important;
-}
-
-#app-mount .wrapper-1VLyxH[style*="80px"] svg.cursorDefault--wfhy5 rect, #app-mount .wrapper-1VLyxH[style*="120px"] svg.cursorDefault--wfhy5 rect {
-  ry: calc(var(--avatar-border-radius) * 3.3);
-  rx: calc(var(--avatar-border-radius) * 3.3);
-}
-
-#app-mount .wrapper-1VLyxH rect {
-  x: 0;
-  y: 0;
-  width: 100%;
-  height: 100%;
-  -webkit-mask: none;
-          mask: none;
-  display: block;
-  rx: var(--avatar-border-radius);
-  ry: var(--avatar-border-radius);
-  fill: transparent !important;
-  stroke-width: var(--small-width);
-}
-
 #app-mount .wrapper-1VLyxH rect[fill="#43b581"], #app-mount .wrapper-1VLyxH rect[fill="#3ba55c"], #app-mount .wrapper-1VLyxH rect[fill="rgba(67, 181, 129, 1)"], #app-mount .wrapper-1VLyxH rect[mask*=online], #app-mount .wrapper-1VLyxH rect[fill*="hsl(139"], .status-12NUUC rect[fill*="hsl=(139"] {
   stroke: var(--online-status-color);
 }
@@ -695,85 +630,6 @@ use[href*="badge"],
 
 #app-mount .wrapper-1VLyxH rect[fill="#747f8d"], #app-mount .wrapper-1VLyxH rect[mask*=offline], #app-mount .wrapper-1VLyxH rect[fill="rgba(116, 127, 141, 1)"], #app-mount .wrapper-1VLyxH rect[fill*="hsl(214"] {
   stroke: var(--offline-status-color);
-}
-
-#app-mount .wrapper-1VLyxH rect[x="16"] {
-  width: 24px;
-  height: 24px;
-}
-
-#app-mount .wrapper-1VLyxH rect[x="28"] {
-  width: 40px;
-  height: 40px;
-  overflow: visible;
-}
-
-#app-mount .wrapper-1VLyxH[style*="32px"] rect {
-  width: 32px;
-  height: 32px;
-  x: -14.5;
-  y: -17;
-  position: relative;
-  z-index: 0;
-}
-
-#app-mount .wrapper-1VLyxH[style*="40px"] > svg > svg rect {
-  width: 40px;
-  height: 40px;
-  x: -19;
-  y: -20;
-  ry: calc(var(--avatar-border-radius) * 3.3);
-  rx: calc(var(--avatar-border-radius) * 3.3);
-}
-
-#app-mount .wrapper-1VLyxH[style*="40px"] foreignObject[mask*=mobile] img {
-  width: calc(100% - 12px);
-}
-
-#app-mount .wrapper-1VLyxH[style*="80px"] svg.cursorDefault--wfhy5 rect {
-  x: -48;
-  y: -52;
-}
-
-#app-mount .wrapper-1VLyxH[style*="80px"] rect {
-  width: 80px;
-  height: 80px;
-  stroke-width: var(--medium-width);
-}
-
-#app-mount .wrapper-1VLyxH[style*="80px"] img {
-  -webkit-clip-path: inset(calc(var(--medium-spacing) + 1px) calc(var(--medium-spacing) + 1px) round var(--avatar-border-radius));
-          clip-path: inset(calc(var(--medium-spacing) + 1px) calc(var(--medium-spacing) + 1px) round var(--avatar-border-radius));
-}
-
-#app-mount .wrapper-1VLyxH[style*="120px"] svg.cursorDefault--wfhy5 rect {
-  x: -70;
-  y: -76;
-}
-
-#app-mount .wrapper-1VLyxH[style*="120px"] rect {
-  width: 120px;
-  height: 120px;
-  stroke-width: var(--large-width);
-}
-
-#app-mount .wrapper-1VLyxH[style*="120px"] img {
-  -webkit-clip-path: inset(calc(var(--large-spacing) + 1px) calc(var(--large-spacing) + 1px) round var(--avatar-border-radius));
-          clip-path: inset(calc(var(--large-spacing) + 1px) calc(var(--large-spacing) + 1px) round var(--avatar-border-radius));
-}
-
-#app-mount .wrapper-1VLyxH:not([style*="80px;"]):not([style*="120px;"]):not([style*="16px"]) > svg > foreignObject:not(:only-child) img {
-  -webkit-clip-path: inset(calc(var(--small-spacing) + 1px) calc(var(--small-spacing) + 1px) round var(--avatar-border-radius));
-          clip-path: inset(calc(var(--small-spacing) + 1px) calc(var(--small-spacing) + 1px) round var(--avatar-border-radius));
-}
-
-#app-mount .wrapper-1VLyxH[style="width: 16px; height: 16px;"] rect {
-  display: none;
-}
-
-#app-mount .wrapper-1VLyxH[style="width: 16px; height: 16px;"] img {
-  -webkit-clip-path: none;
-          clip-path: none;
 }
 
 #app-mount .wrapper-1VLyxH foreignObject[mask*=mobile] {
@@ -823,69 +679,13 @@ use[href*="badge"],
   stroke: var(--phone-icon-color, var(--online-status-color));
 }
 
-#app-mount .avatarStack-3vfSFa {
-  position: relative;
-}
-
 #app-mount .avatarSpeaking-33RRJU {
   position: absolute;
   top: 2px;
   left: 2px;
   width: calc(100% - 4px);
   height: calc(100% - 4px);
-  border-radius: var(--avatar-border-radius);
   box-shadow: inset 0 0 0 2px var(--speaking-color, #57d39b), inset 0 0 0 3px var(--background-secondary);
-}
-
-#app-mount .message-2CShn3 .wrapper-1VLyxH foreignObject[mask*=mobile] {
-  width: calc(100% + 3px);
-}
-
-#app-mount .message-2CShn3 .wrapper-1VLyxH rect[mask*=typing] {
-  width: calc(100% - 9px);
-}
-
-#app-mount .avatarHint-k7pYop foreignObject {
-  -webkit-mask: none;
-          mask: none;
-}
-
-#app-mount .avatarHintInner-2HUAWj {
-  border-radius: var(--avatar-border-radius) !important;
-  padding-top: 0;
-  width: calc(100% - var(--medium-width) - var(--medium-spacing) + 2px);
-  height: calc(100% - var(--medium-width) - var(--medium-spacing) + 2px);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: relative;
-}
-
-#app-mount .memberOffline-2lN7gt img {
-  -webkit-clip-path: none !important;
-          clip-path: none !important;
-}
-
-#app-mount .offline-22aM7E img {
-  -webkit-clip-path: none !important;
-          clip-path: none !important;
-}
-
-#app-mount .avatarWrapperNonUserBot-3fzpUZ .wrapper-1VLyxH img {
-  -webkit-clip-path: none !important;
-          clip-path: none !important;
-}
-
-#app-mount .userInfo-2WpsYG .wrapper-1VLyxH {
-  margin-top: 1px;
-  margin-left: 1px;
-}
-
-
-
-.userInfo-2zN2z8,
-.peopleListItem-2nzedh {
-  overflow: visible;
 }
 
 /*License*/
