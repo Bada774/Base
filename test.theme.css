@@ -17,7 +17,6 @@
 
 
     --window-padding: 20px;
-    --theme-border-color:#FF00AF; 
     --window-border-radius: 30px;
     --theme-border-width: 3px;
     --theme-border-style: solid;
@@ -66,7 +65,7 @@
       --hover-gradient-direction: to top;
       --hover-first-gradient-color: red;
       --hover-second-gradient-color: orange;
-    
+      --theme-border-color:#FF00AF; 
     
   /*4.  Настройки текста*/
     /*4.1 Шрифты*/
@@ -81,6 +80,7 @@
   /*5.	Аватарки и статусы пользователей*/
     /*5.1	Аватарки*/
     --avatar-border-radius: 22.5%;
+    --avarar-border-radius: 22.5%;
     --small-width: 2.5px;
     --medium-width: 2.5px;
     --large-width: 2.5px;
