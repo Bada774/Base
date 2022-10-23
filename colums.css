@@ -51,9 +51,6 @@ body.folderContentIsOpen-zz6FgW .titleBar-1it3bQ.typeMacOS-3V4xXE .macButtons-eI
 .wrapper-1_HaEi .listItem-3SmSlK:first-child .listItemWrapper-3d87LP {
 	margin: 0 calc(1px * (((var(--guildsize) + 12 * var(--guildsize)/50) * (var(--columns) - 1))/2)) calc(1px * var(--guildgap)) calc(1px * ((((var(--guildsize) + 12 * var(--guildsize)/50) * (var(--columns) - 1))/2))) !important;
 }
-.wrapper-1_HaEi .listItem-3SmSlK:first-child .pill-22lZHo ~ .listItemWrapper-3d87LP {
-	margin: 0 calc(1px * ((((var(--guildsize) + 12 * var(--guildsize)/50) * (var(--columns) - 1))/2) * (1 - var(--aligndms)))) 0 calc(1px * (((0 * var(--aligndms)) + ((((var(--guildsize) + 12 * var(--guildsize)/50) * (var(--columns) - 1))/2) * (1 - var(--aligndms)))))) !important;
-}
 .wrapper-1_HaEi .blobContainer-ikKyFs,
 .wrapper-1_HaEi .guildsError-YJjW3A {
 	margin: 0 !important;
@@ -93,9 +90,6 @@ body.folderContentIsOpen-zz6FgW .titleBar-1it3bQ.typeMacOS-3V4xXE .macButtons-eI
 }
 .wrapper-1_HaEi .pill-L_aLMQ {	/*	home	*/ 
 	left: calc(1px * ((((var(--guildsize) + 10 * var(--guildsize)/50) * (var(--columns) - 1))/2) - 9)) !important;
-}
-.wrapper-1_HaEi .pill-22lZHo {	/*	dm		*/ 
-	left: calc(1px * ((var(--aligndms) + ((((var(--guildsize) + 10 * var(--guildsize)/50) * (var(--columns) - 1))/2) * (1 - var(--aligndms)))) - 8)) !important;
 }
 .wrapper-1_HaEi .pill-2RsI5Q,	/*	guild	*/ 
 .wrapper-1_HaEi .pill-1fqNCF {	/* 	button	*/
