@@ -42,7 +42,7 @@
   --background-tertiary: rgba(0, 0, 0, 0.2);
   --background-floating: transparent;
   --logo-primary: var(--main-text-color);
-  --background-mentioned: var(--small-popout-background-tint) !;
+  --background-mentioned: var(--small-popout-background-tint);
   --text-positive: var(--first-gradient-color);
   --info-positive-foreground: var(--first-gradient-color);
 }
@@ -431,11 +431,6 @@ button[class*="navButtonActive"],
 .wrapper-2vIMkT {
   background: var(--main-gradient);
   border-radius: var(--interactive-border-radius) !important;
-}
-
-.circleIconButton-1VxDrg {
-  background: var(--main-gradient);
-  color: var(--main-text-color);
 }
 
 .circleIconButton-1VxDrg[class*="selected"] {
