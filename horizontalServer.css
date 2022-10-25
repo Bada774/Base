@@ -1,9 +1,9 @@
 :root {
-  --server-icons-size: var(--server-icons-size, 35px);
-  --server-icons-spacing: var(--server-icons-spacing, 10px);
+  --server-icons-size: 35px;
+  --server-icons-spacing: 10px;
   --server-list-container: calc(var(--server-icons-size) + 20px);
-  --server-list-directrion: var(--server-list-directrion, column);
-  --server-list-alignment: var(--server-list-alignment, flex-start);
+  --server-list-directrion: column;
+  --server-list-alignment: flex-start;
 }
 
 #app-mount .app-3xd6d0 .base-2jDfDU {
