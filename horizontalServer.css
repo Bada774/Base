@@ -69,11 +69,7 @@
 }
 
 #app-mount .guilds-2JjMmN [class*=pill] {
-  transform: rotate(90deg) translateY(-50%);
-  height: var(--server-icons-size);
-  width: 4px;
-  top: calc(var(--server-icons-size) / -1 + var(--server-icons-size) / 2 - 8px) !important;
-  margin-left: -2px;
+  display: none;
 }
 #app-mount .guilds-2JjMmN [class*=pill] span {
   height: 100% !important;
