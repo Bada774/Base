@@ -83,10 +83,6 @@
   border-radius: 0 4px 4px 0;
 }
 
-#app-mount .guilds-2JjMmN div[style*="height: "] {
-  transform: scale(1, 0.24) !important;
-}
-
 #app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 1"] {
   transform: scale(1, 0.7) !important;
 }
