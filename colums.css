@@ -88,13 +88,7 @@ body.folderContentIsOpen-zz6FgW .titleBar-1it3bQ.typeMacOS-3V4xXE .macButtons-eI
 	transform: scale(calc(var(--server-icon-size)/50)) !important;
 	transform-origin: 0 50% !important;
 }
-.wrapper-1_HaEi .pill-L_aLMQ {	
-	left: calc(1px * ((((var(--server-icon-size) + 10 * var(--server-icon-size)/50) * (var(--columns) - 1))/2) - 9)) !important;
-}
-.wrapper-1_HaEi .pill-2RsI5Q,	
-.wrapper-1_HaEi .pill-1fqNCF {	
-	display: none;
-}
+
 .wrapper-1_HaEi .guildSeparator-a4uisj {
 	width: calc(1px * ((var(--server-icon-size) + 12 * var(--server-icon-size)/50) * var(--columns) - (12 * var(--server-icon-size)/50))) !important;
 	margin: calc(1px * (var(--server-icon-size)/10)) 0 !important;
