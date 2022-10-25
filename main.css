@@ -410,8 +410,8 @@ div[class*="defaultIndicator"],
 }
 
 .item-3XjbnG[class*="selected"],
-.interactive-1vLZ_I[class*="interactiveSelected"],
 .item-3XjbnG[class*="selected"]:hover,
+.interactive-1vLZ_I[class*="interactiveSelected"],
 .interactive-1vLZ_I[class*="interactiveSelected"]:hover,
 div[class*="interactiveSelected"],
 div[class*="modeSelected"] .content-1gYQeQ, 
@@ -427,7 +427,7 @@ button[class*="navButtonActive"],
 .option-Tt7anD,
 .wrapper-1NNaWG,
 .wrapper-2vIMkT {
-  background: var(--main-gradient);
+  background: var(--main-gradient) !important;
   border-radius: var(--interactive-border-radius) !important;
 }
 
