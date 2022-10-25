@@ -255,16 +255,8 @@
   position: relative;
 }
 
-#app-mount .memberOffline-2lN7gt img {
-  -webkit-clip-path: none !important;
-          clip-path: none !important;
-}
-
-#app-mount .offline-22aM7E img {
-  -webkit-clip-path: none !important;
-          clip-path: none !important;
-}
-
+#app-mount .memberOffline-2lN7gt img,
+#app-mount .offline-22aM7E img,
 #app-mount .avatarWrapperNonUserBot-3fzpUZ .wrapper-1VLyxH img {
   -webkit-clip-path: none !important;
           clip-path: none !important;
