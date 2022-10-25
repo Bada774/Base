@@ -1,0 +1,109 @@
+/**
+ * @name D1
+ * @author 1228
+ * @version 2.0.0
+ * @description Тема танцующей ZeroTwo из клипа 2 Phut Hon (KAIZ Remix)
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ * @authorLink https://discordhub.com/profile/360111380059389964
+ * @authorId 360111380059389964
+*/
+/* https://bada774.github.io/Base/main.css */
+/* http://localhost/main.css */
+
+@import url(https://bada774.github.io/Base/main.css);
+/* @import url(https://bada774.github.io/Base/colums.css); */
+@import url(https://bada774.github.io/Base/horizontalServer.css);
+@import url(https://bada774.github.io/Base/avatars.css);
+:root {
+  /*1.	Настройки окна*/
+
+
+    --window-padding: 20px;
+    --theme-border-color:#FF00AF; 
+    --window-border-radius: 30px;
+    --theme-border-width: 3px;
+    --theme-border-style: solid;
+    --window-shadow-style: var(--shadow-type-2);
+    --window-shadow-width: 20px;
+    --interactive-border-radius: 30px;
+
+  /*2.	Настройки изображений*/
+    /*2.1	Параметры главного фонового изображения*/
+      --background-image: url(https://i.imgur.com/WaG1PAu.gif);
+      --background-image-position: center;
+      --background-image-size: cover;
+      --background-image-repeat: no-repeat;
+      --main-background-tint: #FFC8C880;
+      --background-image-blur: 10px;
+
+    /*2.2	Параметры изображения кнопки “Главная”*/
+      --image-home-icon: url(https://99px.ru/sstorage/86/2018/09/image_861609180322028143900.gif);
+      --image-home-icon-position: top;
+      --image-home-icon-size: 100%; 
+
+    /*2.3	Параметры изображений малого модального окна*/ 
+      --small-popout-border-radius: 50px;
+      --small-popout-background-image: url(https://cs7.pikabu.ru/post_img/big/2018/07/26/3/153257414512532170.jpg);
+      --small-popout-background-image-position: center;
+      --small-popout-background-image-size: 100%;
+      --small-popout-background-tint: #1900FF1A;
+      --small-popout-background-image-repeat: no-repeat;
+      --small-popout-background-blur: 2px;
+
+    /*2.3	Параметры изображений большого модального окна*/
+      --big-popout-border-radius: 50px;
+      --big-popout-background-image: url(https://99px.ru/sstorage/86/2018/09/image_861609180322028143900.gif);
+      --big-popout-background-image-position: bottom;
+      --big-popout-background-image-size: 90%;
+      --big-popout-background-tint: #00b862a3; 
+      --big-popout-background-image-repeat: no-repeat;
+      --big-popout-background-blur: 2px;
+
+      
+  /*Цветовые настройки*/
+    /*Градиенты*/
+      --gradient-direction: to top;
+      --first-gradient-color:orange;
+      --second-gradient-color:purple;
+      --hover-gradient-direction: to top;
+      --hover-first-gradient-color: red;
+      --hover-second-gradient-color: orange;
+    
+    
+  /*4.  Настройки текста*/
+    /*4.1 Шрифты*/
+    --font: 'Noto Serif','serif';
+    --font-size: 100%;
+    /*4.2 Цвет текста*/
+    --main-text-color: #FFFFFF;
+    --secondary-text-color: #00FF00;
+    --text-link: #ffffff ;
+    
+    
+  /*5.	Аватарки и статусы пользователей*/
+    /*5.1	Аватарки*/
+    --avatar-border-radius: 10px;
+    --small-width: 2.5px;
+    --medium-width: 2.5px;
+    --large-width: 2.5px;
+    --small-spacing: 0px;
+    --medium-spacing: 0px;
+    --large-spacing: 0px;
+
+    /*5.2	Статусы пользователей*/
+    --online-status-color: #FF00AF;
+    --idle-status-color: #faa61a;
+    --disturb-status-color: #F00000;
+    --streaming-status-color: #2CEEDD;
+    --offline-status-color: #5C00AA;
+    --speaking-color: yellow;
+    --phone-icon-visibility: hidden;
+    --phone-icon-color: #FF00AF;
+  /*6.	Вертикальный серверный список*/
+    --columns:2;
+    --guildsize:50;
+    --guildgap: 10;
+  /*7. Горизонтальный серверный список*/
+  --server-icon-size: 35px; /*(--server-size);*/
+  --server-spacing: 10px;
+}
