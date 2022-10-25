@@ -1,6 +1,6 @@
 :root {
   --server-size: var(--server-icon-size, 35px);
-  --server-spacing: var(---spacing, 10px);
+  --server-spacing: var(--server-spacing, 10px);
   --server-container: calc(var(--server-size) + 20px);
   --server-direction: var(--server-direction, column);
   --server-alignment: var(--server-alignment, flex-start);
