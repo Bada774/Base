@@ -1,10 +1,9 @@
-/*123*/
 :root {
-  --server-size: var(--server-icon-size, 35px);
-  --server-spacing: var(--server-spacing, 10px);
+  --server-size: var(--HSL-server-icon-size, var(--HSL-size, 35px));
+  --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
   --server-container: calc(var(--server-size) + 20px);
-  --server-direction: var(--server-direction, column);
-  --server-alignment: var(--server-alignment, flex-start);
+  --server-direction: var(--HSL-server-direction, column);
+  --server-alignment: var(--HSL-server-alignment, flex-start);
 }
 
 #app-mount .app-3xd6d0 .base-2jDfDU {
@@ -19,7 +18,7 @@
   border-radius: 0;
 }
 #app-mount [class*=unreadMentionsIndicator] {
-  width: var(--server-icon-size);
+  width: var(--server-size);
   padding: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -64,17 +63,17 @@
 #app-mount .guilds-2JjMmN .wrapper-28eC3z,
 #app-mount .guilds-2JjMmN .guildsError-b7zR5H,
 #app-mount .guilds-2JjMmN .placeholderMask-2FHNZU {
-  width: var(--server-icon-size);
-  height: var(--server-icon-size);
+  width: var(--server-size);
+  height: var(--server-size);
 }
 #app-mount .guilds-2JjMmN [role=group] {
   height: auto !important;
 }
 #app-mount .guilds-2JjMmN [class*=pill] {
   transform: rotate(90deg) translateY(-50%);
-  height: var(--server-icon-size);
+  height: var(--server-size);
   width: 4px;
-  top: calc(var(--server-icon-size) / -1 + var(--server-icon-size) / 2 - 8px) !important;
+  top: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px) !important;
   margin-left: -2px;
 }
 #app-mount .guilds-2JjMmN [class*=pill] span {
@@ -84,6 +83,9 @@
   transition: 0.15s ease !important;
   margin-left: 0;
   border-radius: 0 4px 4px 0;
+}
+#app-mount .guilds-2JjMmN div[style*="height: "] {
+  transform: scale(1, 0.24) !important;
 }
 
 #app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 1"] {
@@ -104,9 +106,8 @@
   transform: scale(1, 0.24) !important;
 }
 #app-mount .guilds-2JjMmN .wrapper-z5ab_q {
-  height: var(--server-icon-size) !important;
+  height: var(--server-size) !important;
 }
-
 #app-mount .guilds-2JjMmN .wrapper-38slSD {
   width: var(--server-container);
   display: flex;
@@ -119,17 +120,17 @@
   gap: var(--server-spacing);
 }
 #app-mount .guilds-2JjMmN [class*=listItem]:not([class*=listItemWrapper]) {
-  width: var(--server-icon-size);
+  width: var(--server-size);
   transform: rotate(90deg);
   margin: 0 10px;
   position: unset;
 }
 #app-mount .guilds-2JjMmN [class*=guildSeparator] {
   transform: rotate(90deg);
-  width: var(--server-icon-size);
+  width: var(--server-size);
 }
 #app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
-  width: var(--server-icon-size);
+  width: var(--server-size);
   left: 50%;
   border-radius: 10px;
   transform: translateX(-50%);
@@ -144,7 +145,7 @@
 }
 #app-mount .guilds-2JjMmN .target-1eRTCg::before {
   top: 0;
-  height: var(--server-icon-size);
+  height: var(--server-size);
   width: 4px;
   left: -6px;
 }
@@ -155,8 +156,8 @@
   position: absolute;
   max-width: unset;
   white-space: nowrap;
-  margin-left: calc(var(--server-icon-size) / -1 - 20px);
-  top: calc(var(--server-icon-size) - 10px);
+  margin-left: calc(var(--server-size) / -1 - 20px);
+  top: calc(var(--server-size) - 10px);
 }
 #app-mount [class*=listItemTooltip] [class*=tooltipPointer] {
   transform: rotate(180deg);
@@ -170,7 +171,7 @@
   transform: translate(-50%, 50%);
   top: calc(-50% + var(--server-spacing));
   left: -50%;
-  width: calc(var(--server-icon-size) + var(--server-spacing));
+  width: calc(var(--server-size) + var(--server-spacing));
   display: flex;
   justify-content: center;
 }
@@ -182,7 +183,7 @@
   top: calc(var(--server-container) * 2.5) !important;
 }
 #app-mount .guilds-2JjMmN .frame-oXWS21[class*=listItem] {
-  height: var(--server-icon-size) !important;
+  height: var(--server-size) !important;
 }
 #app-mount .guilds-2JjMmN .frame-oXWS21[class*=listItem] .wrapper-3kah-n {
   height: 100% !important;
@@ -200,7 +201,7 @@
   top: calc(var(--server-container)) !important;
 }
 #app-mount .serverCountWrap-k8F5De {
-  height: var(--server-icon-size);
+  height: var(--server-size);
 }
 #app-mount .serverCount-FsTTs1 {
   white-space: pre-line;
