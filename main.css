@@ -252,10 +252,6 @@ div[role="menu"]::before,
   border-bottom: none;
 }
 
-.homeIcon-r0w4ny {
-  color: transparent;
-}
-
 .app-2CXKsg,
 .wrapper-1_HaEi,
 .scroller-3X7KbA,
@@ -442,8 +438,16 @@ button[class*="navButtonActive"],
 
 div[class*="tooltipPointer"],
 use[href*="badge"],
-.peopleListItem-u6dGxF .actions-YHvpIT {
-  display: none !important;;
+.peopleListItem-u6dGxF .actions-YHvpIT,
+.homeIcon-r0w4ny,
+.listItem-3SmSlK [class*="pill"] {
+  display: none !important;
+}
+
+.listItem-3SmSlK [class*="selected"] .wrapper-28eC3z svg{
+  border: var(--theme-border);
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 [class*="input"],
