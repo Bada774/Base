@@ -167,7 +167,8 @@ div[role="menu"],
 .popout-1KHNAq,
 .container-18GwIk,
 .container-26tbgC,
-.container-JMJRDf {
+.container-JMJRDf,
+.contentPremium-_Y0-cX {
   position: relative;
   background: var(--small-popout-background-tint);
   border: var(--theme-border);
@@ -183,7 +184,8 @@ div[role="menu"]::before,
 .popout-1KHNAq::before,
 .container-18GwIk::before,
 .container-26tbgC::before,
-.container-JMJRDf::before {
+.container-JMJRDf::before,
+.contentPremium-_Y0-cX::before {
   content: "";
   position: absolute;
   background: linear-gradient(var(--small-popout-background-tint), var(--small-popout-background-tint)), var(--small-popout-background-image);
