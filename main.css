@@ -41,6 +41,7 @@
   --background-secondary-alt: rgba(0, 0, 0, 0.6);
   --background-tertiary: rgba(0, 0, 0, 0.2);
   --background-floating: transparent;
+  --deprecated-text-input-bg: transparent;
   --logo-primary: var(--main-text-color);
   --background-mentioned: var(--small-popout-background-tint);
   --text-positive: var(--first-gradient-color);
@@ -572,7 +573,7 @@ use[href*="badge"],
 }
 
 .addFriend-emTWY1[aria-selected=true] {
-  background: none;
+  background: transparent !important;
   color: var(--first-gradient-color) !important;
   border: var(--theme-border-width) solid var(--second-gradient-color) !important;
 }
