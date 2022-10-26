@@ -555,7 +555,7 @@ use[href*="badge"],
 .wrapper-NhbLHG:hover .content-1gYQeQ,
 .actionButton-3-B2x-:hover,
 .button-3bklZh:hover
-.item-3XjbnG[class*="selected"]  div[class*="Badge"] {
+.item-3XjbnG[class*="selected"] div[class*="Badge"] {
   background: var(--hover-gradient) !important;
 }
 
