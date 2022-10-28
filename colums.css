@@ -1,7 +1,7 @@
 :root {
-	--columns-number: var(--CSLColumns, 2);
-	--server-icons-size: var(--CSISize, 50);
-	--server-icons-spacing:  var(--CSISpacing, 3);
+	--columns-number: var(--cslcolumns, 2);
+	--server-icons-size: var(--csisize, 50);
+	--server-icons-spacing:  var(--csispacing, 3);
 }
 
 .titleBar-1it3bQ.typeMacOS-3V4xXE,
