@@ -10,8 +10,28 @@
   
   --theme-border: var(--theme-border-width) var(--theme-border-style) var(--theme-border-color);
 
-  --shadow-type-1: 0px 8px 24px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint), 0 0 20px calc(var(--window-padding) + 10px) rgba(0, 0, 0, 0.2);
-  --shadow-type-2: 5px 5px 20px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint), 0 0 20px calc(var(--window-padding) + 10px) rgba(0, 0, 0, 0.2);
+  --secondary-shadow: 0 0 20px calc(var(--window-padding) + 10px) rgba(0, 0, 0, 0.2);
+
+  --shadow-type-1: 0px 8px 24px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint), var(--secondary-shadow);
+  --shadow-type-2: 5px 5px 20px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint), var(--secondary-shadow);
+  --shadow-type-3: 0px 7px 29px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint), var(--secondary-shadow);
+  --shadow-type-4: 0px 48px 100px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint), var(--secondary-shadow);
+  --shadow-type-5:  0px 10px 36px 0px var(--main-background-tint), 0px 0px 0px 1px var(--main-background-tint), var(--secondary-shadow);
+  --shadow-type-6: , var(--secondary-shadow);
+  --shadow-type-7: , var(--secondary-shadow);
+  --shadow-type-8: , var(--secondary-shadow);
+  --shadow-type-9: , var(--secondary-shadow);
+  --shadow-type-10: , var(--secondary-shadow);
+  --shadow-type-11: , var(--secondary-shadow);
+  --shadow-type-12: , var(--secondary-shadow);
+  --shadow-type-13: ;
+  --shadow-type-14: ;
+  --shadow-type-15: ;
+  --shadow-type-16: ;
+  --shadow-type-17: ;
+  --shadow-type-18: ;
+  --shadow-type-19: ;
+  --shadow-type-20: ;
 
   --text-shadow: 1;
   --chat-embed: var(--background-secondary);
