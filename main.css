@@ -167,6 +167,23 @@ html {
   padding-top: 0;
   overflow: hidden;
   border-radius: var(--window-border-radius);
+  border-color: var(--theme-border-color);
+  border-style: var(--theme-border-style);
+  box-shadow: var(--window-shadow-style);
+}
+
+#app-mount .base-2jDfDU::before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), transparent);
+  z-index: 1;
+  top: 48px;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 #app-mount .bg-1QIAus {
@@ -188,7 +205,6 @@ html {
   border-radius: var(--window-border-radius);
   -webkit-backdrop-filter: blur(var(--background-image-blur));
           backdrop-filter: blur(var(--background-image-blur));
-  box-shadow: var(--window-shadow-style);
 }
 
 .typeWindows-2-g3UY {
