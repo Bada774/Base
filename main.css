@@ -112,7 +112,7 @@ html {
   font-family: var(--font, "Whitney") !important;
 }
 
-.bg-1QIAus {
+/* .bg-1QIAus {
   top: 0;
   background: transparent;
 }
@@ -123,7 +123,7 @@ html {
   background-position: var(--background-image-position, center);
   background-size: var(--background-image-size, cover);
   background-repeat: var(--background-image-repeat, no-repeat);
-  background-position: var(--background-image-position, absolute);
+  position: absolute;
   height: 100%;
   width: 100%;
 }
@@ -156,6 +156,39 @@ html {
   transform: translate(-50%, -50%);
   position: absolute;
   filter: blur(var(--background-image-blur));
+} */
+
+
+#app-mount .layer-86YKbF {
+  top: var(--window-padding);
+  right: var(--window-padding);
+  bottom: var(--window-padding);
+  left: var(--window-padding);
+  padding-top: 0;
+  overflow: hidden;
+  border-radius: var(--window-border-radius);
+}
+
+#app-mount .bg-1QIAus {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: var(--background-image);
+  background-position: var(--background-image-position, center);
+  background-size: var(--background-image-size, cover);
+}
+#app-mount .bg-1QIAus::before {
+  content: "";
+  position: absolute;
+  top: var(--window-padding);
+  right: var(--window-padding);
+  bottom: var(--window-padding);
+  left: var(--window-padding);
+  border-radius: var(--window-border-radius);
+  -webkit-backdrop-filter: blur(var(--background-image-blur));
+          backdrop-filter: blur(var(--background-image-blur));
+  box-shadow: var(--window-shadow-style);
 }
 
 .typeWindows-2-g3UY {
