@@ -16,7 +16,7 @@
   --shadow-type-2: 5px 5px 20px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint), var(--secondary-shadow);
   --shadow-type-3: 0px 7px 29px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint), var(--secondary-shadow);
   --shadow-type-4: 0px 48px 100px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint), var(--secondary-shadow);
-  --shadow-type-5:  0px 10px 36px 0px var(--main-background-tint), 0px 0px 0px 1px var(--main-background-tint), var(--secondary-shadow);
+  --shadow-type-5:  0px 10px 36px calc(0px + var(--theme-border-width)) var(--main-background-tint), 0px 0px 0px calc(1px + var(--theme-border-width))  var(--main-background-tint), var(--secondary-shadow);
   --shadow-type-6: , var(--secondary-shadow);
   --shadow-type-7: , var(--secondary-shadow);
   --shadow-type-8: , var(--secondary-shadow);
@@ -189,7 +189,8 @@ div[role="menu"],
 .container-18GwIk,
 .container-26tbgC,
 .container-JMJRDf,
-.contentPremium-_Y0-cX {
+.contentPremium-_Y0-cX,
+.root-1e2tfc {
   position: relative;
   background: var(--small-popout-background-tint);
   border: var(--theme-border);
@@ -206,7 +207,8 @@ div[role="menu"]::before,
 .container-18GwIk::before,
 .container-26tbgC::before,
 .container-JMJRDf::before,
-.contentPremium-_Y0-cX::before {
+.contentPremium-_Y0-cX::before,
+.root-1e2tfc::before {
   content: "";
   position: absolute;
   background: linear-gradient(var(--small-popout-background-tint), var(--small-popout-background-tint)), var(--small-popout-background-image);
@@ -467,7 +469,7 @@ use[href*="badge"],
   display: none !important;
 }
 
-.listItem-3SmSlK [class*="selected"] .wrapper-28eC3z svg{
+.listItem-3SmSlK [class*="selected"] .wrapper-28eC3z svg[class*="svg"]{
   border: var(--theme-border);
   border-radius: 20px;
   overflow: hidden;
@@ -496,6 +498,21 @@ use[href*="badge"],
 .theme-dark .checkbox-f1HnKB {
   border-radius: var(--interactive-border-radius);
   border-color: var(--main-text-color);
+}
+
+.colorable-3rVGna.primaryDark-2UJt1G,
+.colorable-3rVGna.green-3wkLbx.active-3D763s {
+  background: var(--main-gradient);
+  border-radius: var(--interactive-border-radius);
+}
+
+.centerIcon-JYpTUi {
+  color: var(--main-text-color);
+}
+
+.colorable-3rVGna.primaryDark-2UJt1G:hover,
+.colorable-3rVGna.green-3wkLbx:hover  {
+  background: var(--hover-gradient);
 }
 
 .colorDefault-CDqZdO .checkbox-hADx5o,
