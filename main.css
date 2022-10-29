@@ -122,7 +122,7 @@ html {
   background: var(--background-image);
   background-position: var(--background-image-position, center);
   background-size: var(--background-image-size, cover);
-  background-repeat: no-repeat;
+  background-repeat: var(--background-image-repeat, no-repeat);
   position: absolute;
   height: 100%;
   width: 100%;
