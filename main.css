@@ -147,6 +147,7 @@ html {
   background: var(--background-image);
   background-position: var(--background-image-position, center);
   background-size: var(--background-image-size, cover);
+  background-repeat: var(--background-image-repeat, no-repeat);
 }
 #app-mount .bg-1QIAus::before {
   content: "";
