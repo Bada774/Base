@@ -12,11 +12,11 @@
 
   --secondary-shadow: 0 0 20px calc(var(--window-padding) + 10px) rgba(0, 0, 0, 0.2);
 
-  --shadow-type-1: 0px 8px 24px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint), var(--secondary-shadow);
-  --shadow-type-2: 5px 5px 20px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint), var(--secondary-shadow);
-  --shadow-type-3: 0px 7px 29px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint), var(--secondary-shadow);
-  --shadow-type-4: 0px 48px 100px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint), var(--secondary-shadow);
-  --shadow-type-5:  0px 10px 36px calc(0px + var(--theme-border-width)) var(--main-background-tint), 0px 0px 0px calc(1px + var(--theme-border-width))  var(--main-background-tint), var(--secondary-shadow);
+  --shadow-type-1: 0px 8px 24px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint);
+  --shadow-type-2: 5px 5px 20px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint);
+  --shadow-type-3: 0px 7px 29px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint);
+  --shadow-type-4: 0px 48px 100px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint);
+  --shadow-type-5: 0px 10px 36px calc(0px + var(--theme-border-width)) var(--main-background-tint), 0px 0px 0px calc(1px + var(--theme-border-width))  var(--main-background-tint);
   --shadow-type-6: , var(--secondary-shadow);
   --shadow-type-7: , var(--secondary-shadow);
   --shadow-type-8: , var(--secondary-shadow);
@@ -120,9 +120,10 @@ html {
   padding-top: 0;
   overflow: hidden;
   border-radius: var(--window-border-radius);
+  border-width: var(--theme-border-width);
   border-color: var(--theme-border-color);
   border-style: var(--theme-border-style);
-  box-shadow: var(--window-shadow-style);
+  box-shadow: var(--window-shadow-style), var(--secondary-shadow);
 }
 
 #app-mount .base-2jDfDU::before {
@@ -147,7 +148,7 @@ html {
   background: var(--background-image);
   background-position: var(--background-image-position, center);
   background-size: var(--background-image-size, cover);
-  background-repeat: var(--background-image-repeat, no-repeat);
+  background-repeat: var(--background-image-repeat, repeat);
 }
 #app-mount .bg-1QIAus::before {
   content: "";
