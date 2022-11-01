@@ -10,28 +10,28 @@
   
   --theme-border: var(--theme-border-width) var(--theme-border-style) var(--theme-border-color);
 
-  --secondary-shadow: 0 0 20px calc(var(--window-padding) + 10px) rgba(0, 0, 0, 0.2);
+  --secondary-shadow: 0 0 20px calc(var(--window-padding) + 10px) #00000033;
 
-  --shadow-type-1: 0px 8px 24px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint);
-  --shadow-type-2: 5px 5px 20px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint);
-  --shadow-type-3: 0px 7px 29px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint);
-  --shadow-type-4: 0px 48px 100px calc(var(--window-padding) + var(--theme-border-width) - calc(var(--window-padding) / 4)) var(--main-background-tint);
-  --shadow-type-5: 0px 10px 36px calc(0px + var(--theme-border-width)) var(--main-background-tint), 0px 0px 0px calc(1px + var(--theme-border-width))  var(--main-background-tint);
-  --shadow-type-6: , var(--secondary-shadow);
-  --shadow-type-7: , var(--secondary-shadow);
-  --shadow-type-8: , var(--secondary-shadow);
-  --shadow-type-9: , var(--secondary-shadow);
-  --shadow-type-10: , var(--secondary-shadow);
-  --shadow-type-11: , var(--secondary-shadow);
-  --shadow-type-12: , var(--secondary-shadow);
-  --shadow-type-13: ;
-  --shadow-type-14: ;
-  --shadow-type-15: ;
-  --shadow-type-16: ;
-  --shadow-type-17: ;
-  --shadow-type-18: ;
-  --shadow-type-19: ;
-  --shadow-type-20: ;
+  --shadow-type-1: 0px 8px 24px var(--main-background-tint);
+  --shadow-type-2: 0px 7px 29px 0px var(--main-background-tint);
+  --shadow-type-3: 1.95px 1.95px 2.6px var(--main-background-tint);
+  --shadow-type-4: 0px 5px 15px var(--main-background-tint);
+  --shadow-type-5: 0px 1px 4px var(--main-background-tint);
+  --shadow-type-6: 0px 3px 8px var(--main-background-tint);
+  --shadow-type-7: 0px 2px 8px 0px var(--main-background-tint);
+  --shadow-type-8: 0px 1px 3px 0px var(--main-background-tint), 0px 0px 0px 1px var(--main-background-tint);
+  --shadow-type-9: 0px 54px 55px var(--main-background-tint), 0px -12px 30px var(--main-background-tint), 0px 4px 6px var(--main-background-tint), 0px 12px 13px var(--main-background-tint), 0px -3px 5px var(--main-background-tint);
+  --shadow-type-10: 0px 6px 24px 0px var(--main-background-tint), 0px 0px 0px 1px var(--main-background-tint);
+  --shadow-type-11: 0px 10px 36px 0px var(--main-background-tint), 0px 0px 0px 1px var(--main-background-tint);
+  --shadow-type-12: 0px 48px 100px 0px var(--main-background-tint);
+  --shadow-type-13: 0px 50px 100px -20px var(--main-background-tint), 0px 30px 60px -30px var(--main-background-tint), 0px -2px 6px 0px var(--main-background-tint) inset;
+  --shadow-type-14: 0px 20px 30px -10px var(--main-background-tint);
+  --shadow-type-15: 0px 30px 60px -12px inset var(--main-background-tint), 0px 18px 36px -18px inset var(--main-background-tint);
+  --shadow-type-16: 0px 10px 20px var(--main-background-tint), 0px 6px 6px var(--main-background-tint);
+  --shadow-type-17: 0px 2px 1px var(--main-background-tint), 0px 4px 2px var(--main-background-tint), 0px 8px 4px var(--main-background-tint), 0px 16px 8px var(--main-background-tint), 0px 32px 16px var(--main-background-tint);
+  --shadow-type-18: 3px 3px 6px 0px inset var(--main-background-tint), -3px -3px 6px 1px inset var(--main-background-tint);
+  --shadow-type-19: 6px 2px 16px 0px var(--main-background-tint), -6px -2px 16px 0px var(--main-background-tint);
+  --shadow-type-20: 0px 25px 20px -20px var(--main-background-tint);
 
   --text-shadow: 1;
   --chat-embed: var(--background-secondary);
@@ -40,7 +40,7 @@
 .theme-dark,
 .theme-light {
   --status-positive-text: var(--main-text-color);
-  --deprecated-card-bg: rgba(0, 0, 0, 0.6);
+  --deprecated-card-bg: #00000099;
   --deprecated-store-bg: var(--background-tertiary);
   --channel-text-area-placeholder: var(--secondary-text-color);
   --brand-experiment: var(--main-gradient);
@@ -55,11 +55,11 @@
   --interactive-normal: var(--main-text-color);
   --interactive-muted: var(--secondary-text-color);
   --background-modifier-selected: var(--main-gradient);  
-  --input-background:rgba(0, 0, 0, 0.6);
-  --background-primary:rgba(0, 0, 0, 0.6);
-  --background-secondary: rgba(0, 0, 0, 0.6);
-  --background-secondary-alt: rgba(0, 0, 0, 0.6);
-  --background-tertiary: rgba(0, 0, 0, 0.2);
+  --input-background:#00000099;
+  --background-primary:#00000099;
+  --background-secondary: #00000099;
+  --background-secondary-alt: #00000099;
+  --background-tertiary: #00000033;
   --background-floating: transparent;
   --deprecated-text-input-bg: transparent;
   --logo-primary: var(--main-text-color);
@@ -131,7 +131,7 @@ html {
   position: absolute;
   height: 5px;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), transparent);
+  background: linear-gradient(#00000033, transparent);
   z-index: 1;
   top: 48px;
   pointer-events: none;
@@ -673,7 +673,7 @@ use[href*="badge"],
 }
 
 .bd-switch.bd-switch-checked .bd-switch-body:before {
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: #ffffff26;
   content: "";
   position: absolute;
   height: 100%;
