@@ -195,7 +195,8 @@ div[role="menu"],
 .container-26tbgC,
 .container-JMJRDf,
 .contentPremium-_Y0-cX,
-.root-1e2tfc {
+.root-1e2tfc,
+.scroller-1bVxF5 {
   position: relative;
   border: var(--theme-border);
   border-radius: var(--small-popout-border-radius);
@@ -216,7 +217,8 @@ div[role="menu"]::before,
 .container-26tbgC::before,
 .container-JMJRDf::before,
 .contentPremium-_Y0-cX::before,
-.root-1e2tfc::before {
+.root-1e2tfc::before,
+.scroller-1bVxF5::before {
   content: "";
   position: absolute;
   background: var(--small-popout-background-image);
@@ -362,7 +364,8 @@ div[role="menu"]::before,
 .div[class*="keyboardShortcutsModal"],
 .member-48YF_l,
 .members-3WRCEx,
-.messages-23can0 {
+.messages-23can0,
+.userProfileInnerThemedNonPremium-1gT-zY {
   background: transparent !important;
 }
 
@@ -473,6 +476,11 @@ button[class*="navButtonActive"],
 .wrapper-2vIMkT {
   background: var(--main-gradient) !important;
   border-radius: var(--interactive-border-radius) !important;
+}
+
+.menu-1QACrS[class*="Flex"]::before,
+.menu-1QACrS[class*="Flex"] {
+  all: unset !important;
 }
 
 .circleIconButton-1VxDrg[class*="selected"] {
