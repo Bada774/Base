@@ -248,7 +248,7 @@ div[role="menu"]::before,
   background: var(--small-popout-background-tint);
 }
 
-.root-g14mjS {
+.root-g14mjS:not([div*="small"]){
   position: relative;
   border: var(--theme-border);
   border-radius: var(--small-popout-border-radius);
@@ -259,7 +259,7 @@ div[role="menu"]::before,
   overflow: hidden !important;
 }
 
-.root-g14mjS::before {
+.root-g14mjS:not([div*="small"])::before {
   content: "";
   position: absolute;
   background: var(--big-popout-background-image);
