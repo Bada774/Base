@@ -255,7 +255,17 @@ h5 {
     margin-top: 0 !important;
 }
 
-.userPopoutOuter-3AVBmJ,
+.uiuiui-userPopoutOuter-1OHwPL
+    .uiuiui-userPopoutInner-nv9Y92.uiuiui-userProfileInnerThemedNonPremium-2AJg-H
+    .uiuiui-overlayBackground-2aa7wt,
+.userPopoutOuter-1OHwPL
+    .userPopoutInner-nv9Y92.userProfileInnerThemedNonPremium-2AJg-H
+    .overlayBackground-2aa7wt {
+    margin: 0 8px 8px;
+}
+
+.uiuiui-userPopoutOuter-1OHwPL,
+.userPopoutOuter-1OHwPL,
 .container-2ebMPP,
 .messagesPopoutWrap-3zryHW,
 [role="menu"]:not(.menu-2TXYjN),
