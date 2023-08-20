@@ -4,6 +4,7 @@
 
 #app-mount .wrapper-3Un6-K svg:not(:root) {
     overflow: visible;
+    contain: none;
 }
 
 #app-mount .wrapper-3Un6-K foreignObject {
@@ -82,7 +83,6 @@
 #app-mount .wrapper-3Un6-K rect[fill="rgba(67, 181, 129, 1)"],
 #app-mount .wrapper-3Un6-K rect[mask*="online"],
 #app-mount .wrapper-3Un6-K rect[fill*="hsl(139"],
-.status-12NUUC rect[fill*="hsl=(139"],
 #app-mount .wrapper-3Un6-K rect[fill*="var(--status-green"],
 #app-mount .wrapper-3Un6-K rect[fill="#23a55a"] {
     stroke: var(--online-status-color);
@@ -118,7 +118,9 @@
 #app-mount .wrapper-3Un6-K rect[fill="rgba(116, 127, 141, 1)"],
 #app-mount .wrapper-3Un6-K rect[fill*="hsl(214"],
 #app-mount .wrapper-3Un6-K rect[fill="var(--status-grey-500)"],
-#app-mount .wrapper-3Un6-K rect[fill="#82858f"] {
+#app-mount .wrapper-3Un6-K rect[fill="#82858f"],
+#app-mount .wrapper-3Un6-K rect[fill="#80848e"],
+#app-mount .wrapper-3Un6-K rect[fill="NaN"] {
     stroke: var(--offline-status-color);
 }
 
@@ -197,6 +199,7 @@
     width: 120px;
     height: 120px;
     stroke-width: var(--caliwidth);
+    pointer-events: none;
 }
 
 #app-mount .wrapper-3Un6-K[style*="120px"] img {
@@ -289,7 +292,10 @@
     position: relative;
 }
 
-#app-mount .avatarSpeaking-33RRJU {
+#app-mount .avatarSpeaking-33RRJU,
+#app-mount .speaking-3RWJBr,
+#app-mount .avatarSpeaking-36V2PN,
+#app-mount .avatarSpeaking-2pCGrZ {
     position: absolute;
     top: 2px;
     left: 2px;
@@ -298,12 +304,6 @@
     border-radius: var(--avatar-border-radius);
     box-shadow: inset 0 0 0 2px var(--speaking-color, #57d39b),
         inset 0 0 0 3px var(--background-secondary);
-}
-
-#app-mount .speaking-3RWJBr {
-    box-shadow: inset 0 0 0 2px var(--speaking-color, #57d39b),
-        inset 0 0 0 3px var(--background-secondary);
-    border-radius: var(--avatar-border-radius);
 }
 
 #app-mount .message-2CShn3 .wrapper-3Un6-K foreignObject[mask*="mobile"] {
