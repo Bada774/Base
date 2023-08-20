@@ -552,10 +552,8 @@ div[class*="Separator"] {
         var(--interactive-border-radius) 0;
 }
 
-.uiuiui-username-3_PJ5r,
 .uiuiui-activity-2EQDZv,
 .theme-dark .summaryInfo-3hcuop,
-.username-3_PJ5r,
 .activity-2EQDZv {
     color: var(--main-text-color) !important;
 }
