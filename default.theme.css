@@ -1,0 +1,107 @@
+/**
+ * @name Default UIUIUI theme
+ * @author Bada774
+ * @version 1.0
+ * @description Default theme for UIUIUI.IN
+ * @source https://uiuiui.in/discord
+ * @website https://uiuiui.in
+ * @authorLink https://discordhub.com/profile/360111380059389964
+ * @authorId 360111380059389964https://imgur.com/HZ59Mzi
+*/
+/* https://bada774.github.io/Base/main.css */
+/* http://localhost/main.css */
+
+@import url(https://bada774.github.io/Base/main.css);
+/* @import url(https://bada774.github.io/Base/colums.css); */
+@import url(https://bada774.github.io/Base/horizontalServer.css);
+@import url(https://bada774.github.io/Base/avatars.css);
+:root {
+    /*1.	Настройки окна*/
+
+    --window-padding: 20px;
+    --theme-border-color: #9500b3;
+    --window-border-radius: 10px;
+    --theme-border-width: 3px;
+    --theme-border-style: solid;
+    --window-shadow-style: var(--shadow-type-10);
+    --window-shadow-width: 20px;
+    --interactive-border-radius: 30px;
+
+    /*2.	Настройки изображений*/
+    /*2.1	Параметры главного фонового изображения*/
+    --background-image: url(https://imgur.com/KQUZxHe.jpeg);
+    --background-image-size: cover;
+    --main-background-tint: #7e28c49f;
+    --background-image-blur: 5px;
+
+    /*2.2	Параметры изображения кнопки “Главная”*/
+    --home-icon-image: url(https://i.imgur.com/bje7xHa.png);
+    --home-icon-image-size: cover;
+
+    /*2.3	Параметры изображений малого модального окна*/
+    --small-popout-border-radius: 50px;
+    --small-popout-background-image: /*url( https://cs7.pikabu.ru/post_img/big/2018/07/26/3/153257414512532170.jpg); */
+        url(/assets/nebula-background-kknkmsiypiqwal4s.jpg);
+    --small-popout-background-image-size: cover;
+    --small-popout-background-tint: #ff880048;
+    --small-popout-background-blur: 0px;
+
+    /*2.3	Параметры изображений большого модального окна*/
+    --big-popout-border-radius: 50px;
+    --big-popout-background-image: url(https://cs7.pikabu.ru/post_img/big/2018/07/26/3/153257414512532170.jpg);
+    --big-popout-background-image-size: cover;
+    --big-popout-background-tint: #ff880048;
+    --big-popout-background-blur: 2px;
+
+    /*Цветовые настройки*/
+    --header-color: #af16163f;
+    /*Градиенты*/
+    --gradient-direction: 140deg;
+    --first-gradient-color: #008cff;
+    --second-gradient-color: #af0060;
+    --hover-gradient-direction: 150deg;
+    --hover-first-gradient-color: #bb009c;
+    --hover-second-gradient-color: #d40094;
+
+    /*4.  Настройки текста*/
+    /*4.1 Шрифты*/
+    --font: "Noto Serif", "serif";
+    --font-size: 100%;
+    /*4.2 Цвет текста*/
+    --main-text-color: #ffffff;
+    --secondary-text-color: #f89e9e;
+    --text-link: #ffffff;
+
+    /*5.	Аватарки и статусы пользователей*/
+    /*5.1	Аватарки*/
+    --avatar-border-radius: 20px;
+    --casiwidth: 2.5px; /*Custom Avatar Small Width Image*/
+    --camiwidth: 2.5px;
+    --caliwidth: 2.5px;
+    --cascspacing: 0px; /*Custom Avatar Small Container Spacing*/
+    --camcspacing: 0px;
+    --calcspacing: 0px;
+
+    /*5.2	Статусы пользователей*/
+    --online-status-color: #ff7b00;
+    --idle-status-color: #faf61a;
+    --disturb-status-color: #f00000;
+    --streaming-status-color: #2ceedd;
+    --offline-status-color: #df0068;
+    --speaking-color: #d400ff;
+    --phone-icon-visibility: hidden;
+    --phone-icon-color: #ff7b00;
+    /*6.	Вертикальный серверный список*/
+    /* --cslcolumns: 3;  */
+    /*guildsize*/
+    /* --csisize: 50px; */
+    /*guildgap*/
+    /* --csispacing: 5px;  */
+    /*7. Горизонтальный серверный список*/
+    /* server-size */
+    --server-icons-size: 45px;
+    /* server-spacing */
+    --server-icons-spacing: 10px;
+    --hsisize: 60px;
+    --hsispacing: 20px;
+}
