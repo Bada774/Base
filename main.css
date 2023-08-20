@@ -257,6 +257,17 @@ h5 {
     margin-top: 0 !important;
 }
 
+.scroller-1bVxF5.none-2-_0dP::before {
+    background: none;
+    box-shadow: none;
+}
+
+.scroller-1bVxF5.none-2-_0dP {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
 .uiuiui-userPopoutOuter-1OHwPL
     .uiuiui-userPopoutInner-nv9Y92.uiuiui-userProfileInnerThemedNonPremium-2AJg-H
     .uiuiui-overlayBackground-2aa7wt,
@@ -696,6 +707,7 @@ use[href*="badge"],
 
 .uiuiui-mentioned-Tre-dv::before,
 .uiuiui-content-3spvdd,
+.uiuiui-mediaBarProgress-38I317::before,
 .mention-3XBnnZ,
 .addFriend-emTWY1,
 .tag-15zcD_,
@@ -703,8 +715,17 @@ use[href*="badge"],
 .bd-switch.bd-switch-checked
     .bd-switch-body:not([style*="background-color: hsl(218,"]):before,
 .bd-search-wrapper,
-.content-3spvdd {
+.content-3spvdd,
+.mediaBarProgress-38I317,
+.mediaBarGrabber-FvJKJg,
+.mediaBarProgress-38I317::before {
     background: var(--main-gradient) !important;
+}
+
+.cta-3-AFNF,
+.button-3Vyz67 {
+    background: var(--main-gradient) !important;
+    color: var(--main-text-color);
 }
 
 .key-N5VmHN {
