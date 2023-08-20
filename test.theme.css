@@ -16,11 +16,10 @@
 @import url(https://bada774.github.io/Base/horizontalServer.css);
 @import url(https://bada774.github.io/Base/avatars.css);
 :root {
-  /*1.	Настройки окна*/
- 
+    /*1.	Настройки окна*/
 
     --window-padding: 20px;
-    --theme-border-color:#FF00AF; 
+    --theme-border-color: #ff00af;
     --window-border-radius: 10px;
     --theme-border-width: 0px;
     --theme-border-style: solid;
@@ -28,61 +27,58 @@
     --window-shadow-width: 20px;
     --interactive-border-radius: 30px;
 
-  /*2.	Настройки изображений*/
+    /*2.	Настройки изображений*/
     /*2.1	Параметры главного фонового изображения*/
-      --background-image: url(https://imgur.com/KQUZxHe.jpeg);
-      --background-image-position: center;
-      --background-image-size: 100% ;
-      --background-image-repeat: no-repeat;
-      --main-background-tint: #7e28c480;
-      --background-image-blur: 0px;
+    --background-image: url(https://imgur.com/KQUZxHe.jpeg);
+    --background-image-position: center;
+    --background-image-size: 100%;
+    --background-image-repeat: no-repeat;
+    --main-background-tint: #7e28c480;
+    --background-image-blur: 0px;
 
     /*2.2	Параметры изображения кнопки “Главная”*/
-      --image-home-icon: url(https://99px.ru/sstorage/86/2018/09/image_861609180322028143900.gif);
-      --image-home-icon-position: top;
-      --image-home-icon-size: 100%; 
+    --image-home-icon: url(https://99px.ru/sstorage/86/2018/09/image_861609180322028143900.gif);
+    --image-home-icon-position: top;
+    --image-home-icon-size: 100%;
 
-    /*2.3	Параметры изображений малого модального окна*/ 
-      --small-popout-border-radius: 50px;
-      --small-popout-background-image: url(https://cs7.pikabu.ru/post_img/big/2018/07/26/3/153257414512532170.jpg);
-      --small-popout-background-image-position: center;
-      --small-popout-background-image-size: 100%;
-      --small-popout-background-tint: #1900FF1A;
-      --small-popout-background-image-repeat: no-repeat;
-      --small-popout-background-blur: 2px;
+    /*2.3	Параметры изображений малого модального окна*/
+    --small-popout-border-radius: 50px;
+    --small-popout-background-image: url(https://cs7.pikabu.ru/post_img/big/2018/07/26/3/153257414512532170.jpg);
+    --small-popout-background-image-position: center;
+    --small-popout-background-image-size: 100%;
+    --small-popout-background-tint: #1900ff1a;
+    --small-popout-background-image-repeat: no-repeat;
+    --small-popout-background-blur: 2px;
 
     /*2.3	Параметры изображений большого модального окна*/
-      --big-popout-border-radius: 50px;
-      --big-popout-background-image: url(https://99px.ru/sstorage/86/2018/09/image_861609180322028143900.gif);
-      --big-popout-background-image-position: bottom;
-      --big-popout-background-image-size: 90%;
-      --big-popout-background-tint: #00b862a3; 
-      --big-popout-background-image-repeat: no-repeat;
-      --big-popout-background-blur: 2px;
+    --big-popout-border-radius: 50px;
+    --big-popout-background-image: url(https://99px.ru/sstorage/86/2018/09/image_861609180322028143900.gif);
+    --big-popout-background-image-position: bottom;
+    --big-popout-background-image-size: 90%;
+    --big-popout-background-tint: #00b862a3;
+    --big-popout-background-image-repeat: no-repeat;
+    --big-popout-background-blur: 2px;
 
-      
-  /*Цветовые настройки*/
-      --header-color: transparent;
+    /*Цветовые настройки*/
+    --header-color: transparent;
     /*Градиенты*/
-      --gradient-direction: to top;
-      --first-gradient-color:orange;
-      --second-gradient-color:purple;
-      --hover-gradient-direction: to top;
-      --hover-first-gradient-color: red;
-      --hover-second-gradient-color: orange;
-    
-    
-  /*4.  Настройки текста*/
+    --gradient-direction: to top;
+    --first-gradient-color: orange;
+    --second-gradient-color: purple;
+    --hover-gradient-direction: to top;
+    --hover-first-gradient-color: red;
+    --hover-second-gradient-color: orange;
+
+    /*4.  Настройки текста*/
     /*4.1 Шрифты*/
-    --font: 'Noto Serif','serif';
+    --font: "Noto Serif", "serif";
     --font-size: 100%;
     /*4.2 Цвет текста*/
-    --main-text-color: #FFFFFF;
-    --secondary-text-color: #00FF00;
-    --text-link: #ffffff ;
-    
-    
-  /*5.	Аватарки и статусы пользователей*/
+    --main-text-color: #ffffff;
+    --secondary-text-color: #00ff00;
+    --text-link: #ffffff;
+
+    /*5.	Аватарки и статусы пользователей*/
     /*5.1	Аватарки*/
     --avatar-border-radius: 10px;
     --casiwidth: 2.5px; /*Custom Avatar Small Width Image*/
@@ -93,25 +89,25 @@
     --calcspacing: 0px;
 
     /*5.2	Статусы пользователей*/
-    --online-status-color: #FF00AF;
+    --online-status-color: #ff00af;
     --idle-status-color: #faa61a;
-    --disturb-status-color: #F00000;
-    --streaming-status-color: #2CEEDD;
-    --offline-status-color: #5C00AA;
+    --disturb-status-color: #f00000;
+    --streaming-status-color: #2ceedd;
+    --offline-status-color: #5c00aa;
     --speaking-color: yellow;
     --phone-icon-visibility: hidden;
-    --phone-icon-color: #FF00AF;
-  /*6.	Вертикальный серверный список*/
-    --cslcolumns: 2; 
-      /*guildsize*/
+    --phone-icon-color: #ff00af;
+    /*6.	Вертикальный серверный список*/
+    --cslcolumns: 2;
+    /*guildsize*/
     --csisize: 50;
-      /*guildgap*/
-    --csispacing: 5; 
-  /*7. Горизонтальный серверный список*/
- /* server-size */
-  /* --server-icons-size: 35px; */
-  /* server-spacing */
-  /* --server-icons-spacing: 10px;   */
-  --hsisize: 50px;
-  --hsispacing: 10px;
+    /*guildgap*/
+    --csispacing: 5;
+    /*7. Горизонтальный серверный список*/
+    /* server-size */
+    /* --server-icons-size: 35px; */
+    /* server-spacing */
+    /* --server-icons-spacing: 10px;   */
+    --hsisize: 50px;
+    --hsispacing: 10px;
 }
