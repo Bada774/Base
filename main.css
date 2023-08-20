@@ -496,8 +496,20 @@ h5 {
 .chatContent-3KubbW,
 .container-YkUktl,
 .root-1CAIjD,
-.userProfileOuterUnthemed-2b2rsv {
+.userProfileOuterUnthemed-2b2rsv,
+.userProfileInnerThemedNonPremium-2AJg-H {
     background: transparent !important;
+}
+
+.textContainer-36wgKK,
+.footer-GXWBBp {
+    background: transparent;
+    border-color: transparent;
+    border-radius: var(--interactive-border-radius);
+}
+
+.hljs {
+    border-radius: var(--interactive-border-radius);
 }
 
 #app-mount .title-31SJ6t .searchBar-jGtisZ {
@@ -601,7 +613,8 @@ div[class*="defaultIndicator"],
 .role-2TIOKu,
 .wrapper-2olG5t,
 .upload-vLbqu-,
-.circleIconButton-1VxDrg {
+.circleIconButton-1VxDrg,
+.role-23oyrw {
     color: var(--main-text-color);
     background: var(--main-gradient);
     border-radius: var(--interactive-border-radius);
