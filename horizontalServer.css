@@ -6,12 +6,15 @@
     --server-list-alignment: var(--hscalignment, flex-start);
 }
 
+#app-mount .uiuiui-guilds-2JjMmN,
 #app-mount .guilds-2JjMmN {
     width: var(--server-list-container);
 }
 #app-mount .guilds-2JjMmN .scrollerWrap-1IAIlv {
     width: calc(100% + 30px);
 }
+#app-mount .uiuiui-guilds-2JjMmN .uiuiui-svg-2ifYOU,
+#app-mount .uiuiui-guilds-2JjMmN .uiuiui-wrapper-2PSQCG,
 #app-mount .guilds-2JjMmN .svg-2ifYOU,
 #app-mount .guilds-2JjMmN .wrapper-2PSQCG,
 #app-mount .guilds-2JjMmN .guildsError-b7zR5H,
@@ -19,24 +22,31 @@
     width: var(--server-icons-size);
     height: var(--server-icons-size);
 }
+#app-mount .uiuiui-guilds-2JjMmN [role="group"],
 #app-mount .guilds-2JjMmN [role="group"] {
     height: auto !important;
 }
+#app-mount .uiuiui-guilds-2JjMmN [class*="expandedFolderBackground"],
 #app-mount .guilds-2JjMmN [class*="expandedFolderBackground"] {
     width: var(--server-icons-size);
     left: 50%;
     translate: -50% 0;
 }
+#app-mount .uiuiui-guilds-2JjMmN .uiuiui-wrapper-z5ab_q,
 #app-mount .guilds-2JjMmN .wrapper-z5ab_q {
     height: var(--server-icons-size) !important;
 }
+#app-mount .uiuiui-guilds-2JjMmN .uiuiui-wrapper-38slSD,
 #app-mount .guilds-2JjMmN .wrapper-38slSD {
     width: var(--server-list-container);
 }
+#app-mount
+    .uiuiui-guilds-2JjMmN
+    [class*="listItem"]:not([class*="listItemWrapper"]),
 #app-mount .guilds-2JjMmN [class*="listItem"]:not([class*="listItemWrapper"]) {
     width: var(--server-list-container);
 }
-
+#app-mount .uiuiui-app-3xd6d0 .uiuiui-base-2jDfDU,
 #app-mount .app-3xd6d0 .base-2jDfDU {
     top: var(--server-list-container) !important;
     position: absolute !important;
@@ -46,6 +56,7 @@
     max-width: 100%;
 }
 
+#app-mount .uiuiui-sidebar-1tnWFu,
 #app-mount .sidebar-1tnWFu {
     border-radius: 0;
 }
@@ -58,6 +69,7 @@
     height: auto;
 }
 
+#app-mount .uiuiui-guilds-2JjMmN,
 #app-mount .guilds-2JjMmN {
     transform-origin: top left;
     transform: rotate(-90deg);
@@ -68,10 +80,12 @@
     left: 0;
 }
 
+#app-mount .uiuiui-guilds-2JjMmN > [data-list-id="guildsnav"],
 #app-mount .guilds-2JjMmN > [data-list-id="guildsnav"] {
     margin-bottom: 0 !important;
 }
 
+#app-mount .uiuiui-guilds-2JjMmN .uiuiui-scrollerBase-1Pkza4,
 #app-mount .guilds-2JjMmN .scrollerBase-1Pkza4 {
     padding: var(--server-icons-spacing) 0 !important;
     display: flex;
@@ -82,6 +96,10 @@
 }
 
 #app-mount
+    .uiuiui-guilds-2JjMmN
+    .uiuiui-scrollerBase-1Pkza4
+    > div[style]:not(.uiuiui-listItem-2P_4kh),
+#app-mount
     .guilds-2JjMmN
     .scrollerBase-1Pkza4
     > div[style]:not(.listItem-2P_4kh) {
@@ -89,18 +107,23 @@
 }
 
 #app-mount
+    .uiuiui-guilds-2JjMmN
+    .uiuiui-scrollerBase-1Pkza4
+    > div[style]:not(.uiuiui-listItem-2P_4kh)[style*="height: 0px"],
+#app-mount
     .guilds-2JjMmN
     .scrollerBase-1Pkza4
     > div[style]:not(.listItem-2P_4kh)[style*="height: 0px"] {
     padding-top: 1px;
 }
 
+#app-mount .uiuiui-guilds-2JjMmN .uiuiui-scrollerBase-1Pkza4 > div[aria-label],
 #app-mount .guilds-2JjMmN .scrollerBase-1Pkza4 > div[aria-label] {
     display: flex;
     flex-direction: var(--server-list-directrion);
     gap: var(--server-icons-spacing);
 }
-
+#app-mount .uiuiui-guilds-2JjMmN [class*="pill"],
 #app-mount .guilds-2JjMmN [class*="pill"] {
     transform: rotate(90deg) translateY(-50%);
     height: var(--server-icons-size);
@@ -111,6 +134,7 @@
     margin-left: -2px;
 }
 
+#app-mount .uiuiui-guilds-2JjMmN [class*="pill"] span,
 #app-mount .guilds-2JjMmN [class*="pill"] span {
     height: 100% !important;
     width: 4px !important;
@@ -119,27 +143,35 @@
     margin-left: 0;
     border-radius: 0 4px 4px 0;
 }
-
-#app-mount .guilds-2JjMmN div[style*="height: "] {
+#app-mount .uiuiui-guilds-2JjMmN [class*="pill"] span[style*="height: "],
+#app-mount .guilds-2JjMmN [class*="pill"] span[style*="height: "] {
     transform: scale(1, 0.24) !important;
 }
 
+#app-mount .uiuiui-guilds-2JjMmN [class*="pill"] span[style*="height: 1"],
 #app-mount .guilds-2JjMmN [class*="pill"] span[style*="height: 1"] {
     transform: scale(1, 0.7) !important;
 }
 
+#app-mount .uiuiui-guilds-2JjMmN [class*="pill"] span[style*="height: 2"],
 #app-mount .guilds-2JjMmN [class*="pill"] span[style*="height: 2"] {
     transform: scale(1, 1) !important;
 }
 
+#app-mount .uiuiui-guilds-2JjMmN [class*="pill"] span[style*="height: 3"],
 #app-mount .guilds-2JjMmN [class*="pill"] span[style*="height: 3"] {
     transform: scale(1, 1) !important;
 }
 
+#app-mount .uiuiui-guilds-2JjMmN [class*="pill"] span[style*="height: 4"],
 #app-mount .guilds-2JjMmN [class*="pill"] span[style*="height: 4"] {
     transform: scale(1, 1) !important;
 }
 
+#app-mount .uiuiui-guilds-2JjMmN [class*="pill"] span[style*="height: 1px"],
+#app-mount .uiuiui-guilds-2JjMmN [class*="pill"] span[style*="height: 2px"],
+#app-mount .uiuiui-guilds-2JjMmN [class*="pill"] span[style*="height: 3px"],
+#app-mount .uiuiui-guilds-2JjMmN [class*="pill"] span[style*="height: 4px"],
 #app-mount .guilds-2JjMmN [class*="pill"] span[style*="height: 1px"],
 #app-mount .guilds-2JjMmN [class*="pill"] span[style*="height: 2px"],
 #app-mount .guilds-2JjMmN [class*="pill"] span[style*="height: 3px"],
@@ -147,18 +179,23 @@
     transform: scale(1, 0.24) !important;
 }
 
+#app-mount .uiuiui-guilds-2JjMmN .uiuiui-wrapper-38slSD,
 #app-mount .guilds-2JjMmN .wrapper-38slSD {
     display: flex;
     flex-direction: var(--server-list-directrion);
     gap: var(--server-icons-spacing);
 }
 
+#app-mount .uiuiui-guilds-2JjMmN .uiuiui-wrapper-38slSD ul[role="group"],
 #app-mount .guilds-2JjMmN .wrapper-38slSD ul[role="group"] {
     display: flex;
     flex-direction: var(--server-list-directrion);
     gap: var(--server-icons-spacing);
 }
 
+#app-mount
+    .uiuiui-guilds-2JjMmN
+    [class*="listItem"]:not([class*="listItemWrapper"]),
 #app-mount .guilds-2JjMmN [class*="listItem"]:not([class*="listItemWrapper"]) {
     width: var(--server-icons-size);
     transform: rotate(90deg);
@@ -166,25 +203,30 @@
     position: unset;
 }
 
+#app-mount .uiuiui-guilds-2JjMmN [class*="guildSeparator"],
 #app-mount .guilds-2JjMmN [class*="guildSeparator"] {
     transform: rotate(90deg);
     width: var(--server-icons-size);
 }
 
+#app-mount .uiuiui-guilds-2JjMmN [class*="expandedFolderBackground"],
 #app-mount .guilds-2JjMmN [class*="expandedFolderBackground"] {
     border-radius: 10px;
     height: 100%;
 }
 
+#app-mount .uiuiui-guilds-2JjMmN .uiuiui-folder-241Joy,
 #app-mount .guilds-2JjMmN .folder-241Joy {
     background: transparent;
 }
 
+#app-mount .uiuiui-guilds-2JjMmN .uiuiui-wrapper-3XVBev,
 #app-mount .guilds-2JjMmN .wrapper-3XVBev {
     top: 0;
     bottom: 0;
 }
 
+#app-mount .uiuiui-guilds-2JjMmN .uiuiui-target-1eRTCg::before,
 #app-mount .guilds-2JjMmN .target-1eRTCg::before {
     top: 0;
     height: var(--server-icons-size);
