@@ -11,10 +11,10 @@
 /* https://bada774.github.io/Base/main.css */
 /* http://localhost/main.css */
 
-@import url(https://bada774.github.io/Base/main.css);
+/* @import url(https://bada774.github.io/Base/main.css); */
 /* @import url(https://bada774.github.io/Base/colums.css); */
-@import url(https://bada774.github.io/Base/horizontalServer.css);
-@import url(https://bada774.github.io/Base/avatars.css);
+/* @import url(https://bada774.github.io/Base/horizontalServer.css); */
+/* @import url(https://bada774.github.io/Base/avatars.css); */
 :root {
     /*1.	Настройки окна*/
 
@@ -41,7 +41,7 @@
     /*2.3	Параметры изображений малого модального окна*/
     --small-popout-border-radius: 50px;
     --small-popout-background-image: /*url( https://cs7.pikabu.ru/post_img/big/2018/07/26/3/153257414512532170.jpg); */
-        url(/assets/nebula-background-kknkmsiypiqwal4s.jpg);
+        url(/assets/nebula-background.jpg);
     --small-popout-background-image-size: cover;
     --small-popout-background-tint: #ff880048;
     --small-popout-background-blur: 0px;
@@ -74,7 +74,7 @@
 
     /*5.	Аватарки и статусы пользователей*/
     /*5.1	Аватарки*/
-    --avatar-border-radius: 20px;
+    --avatar-border-radius: 10px;
     --casiwidth: 2.5px; /*Custom Avatar Small Width Image*/
     --camiwidth: 2.5px;
     --caliwidth: 2.5px;
@@ -92,16 +92,15 @@
     --phone-icon-visibility: hidden;
     --phone-icon-color: #ff7b00;
     /*6.	Вертикальный серверный список*/
-    /* --cslcolumns: 3;  */
+    --cslcolumns: 2;
     /*guildsize*/
-    /* --csisize: 50px; */
+    --csisize: 50;
     /*guildgap*/
-    /* --csispacing: 5px;  */
+    --csispacing: 5;
+    --csdmcenter: 1;
     /*7. Горизонтальный серверный список*/
     /* server-size */
-    --server-icons-size: 45px;
     /* server-spacing */
-    --server-icons-spacing: 10px;
-    --hsisize: 60px;
-    --hsispacing: 20px;
+    --hsisize: 50px;
+    --hsispacing: 10px;
 }

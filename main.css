@@ -217,7 +217,6 @@ h5 {
 .uiuiui-guilds-2JjMmN
     .uiuiui-tutorialContainer-1pL9QS
     .uiuiui-childWrapper-1j_1ub {
-    background: var(--main-gradient);
     background-color: transparent;
 }
 
@@ -228,7 +227,7 @@ h5 {
 .uiuiui-guilds-2JjMmN
     .uiuiui-tutorialContainer-1pL9QS
     .uiuiui-listItem-3SmSlK:first-child
-    .uiuiui-wrapper-3kah-n {
+    .uiuiui-wrapper-3kah-n::before {
     content: "";
     border-radius: 50%;
     position: absolute;
