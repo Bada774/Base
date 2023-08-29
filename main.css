@@ -244,6 +244,10 @@ h5 {
     .tutorialContainer-1pL9QS
     .listItem-3SmSlK:first-child
     .wrapper-3kah-n:hover::before,
+.guilds-2JjMmN
+    .tutorialContainer-1pL9QS
+    .listItem-3SmSlK:first-child
+    .wrapper-3kah-n[class*="selected"]::before,
 .uiuiui-guilds-2JjMmN
     .uiuiui-tutorialContainer-1pL9QS
     .uiuiui-listItem-3SmSlK:first-child
