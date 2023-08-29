@@ -543,12 +543,10 @@ h5 {
 }
 
 div[role="separator"],
-.peopleListItem-u6dGxF {
-    border-top: thin var(--theme-border-style) var(--theme-border-color);
-}
-
 div[class*="divider"],
-div[class*="Separator"] {
+div[class*="Separator"],
+.peopleListItem-u6dGxF {
+    border-top: none;
     background: transparent;
     border-top: thin var(--theme-border-style) var(--theme-border-color) !important;
 }
