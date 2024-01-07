@@ -40,8 +40,7 @@
 
     /*2.3	Параметры изображений малого модального окна*/
     --small-popout-border-radius: 50px;
-    --small-popout-background-image: /*url( https://cs7.pikabu.ru/post_img/big/2018/07/26/3/153257414512532170.jpg); */
-        url(/assets/nebula-background.jpg);
+    --small-popout-background-image: url(https://cs7.pikabu.ru/post_img/big/2018/07/26/3/153257414512532170.jpg);
     --small-popout-background-image-size: cover;
     --small-popout-background-tint: #ff880048;
     --small-popout-background-blur: 0px;
