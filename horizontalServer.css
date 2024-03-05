@@ -86,7 +86,7 @@
 }
 
 #app-mount .uiuiui-guilds-2JjMmN .uiuiui-scrollerBase-1Pkza4,
-#app-mount .guilds__2b93a .scrollerBase_dc3aa9 {
+#app-mount .guilds__2b93a .scrollerBase__2b744 {
     padding: var(--server-icons-spacing) 0 !important;
     display: flex;
     flex-direction: var(--server-list-directrion);
@@ -101,7 +101,7 @@
     > div[style]:not(.uiuiui-listItem-2P_4kh),
 #app-mount
     .guilds__2b93a
-    .scrollerBase_dc3aa9
+    .scrollerBase__2b744
     > div[style]:not(.listItem-2P_4kh) {
     height: auto !important;
 }
@@ -112,13 +112,13 @@
     > div[style]:not(.uiuiui-listItem-2P_4kh)[style*="height: 0px"],
 #app-mount
     .guilds__2b93a
-    .scrollerBase_dc3aa9
+    .scrollerBase__2b744
     > div[style]:not(.listItem-2P_4kh)[style*="height: 0px"] {
     padding-top: 1px;
 }
 
 #app-mount .uiuiui-guilds-2JjMmN .uiuiui-scrollerBase-1Pkza4 > div[aria-label],
-#app-mount .guilds__2b93a .scrollerBase_dc3aa9 > div[aria-label] {
+#app-mount .guilds__2b93a .scrollerBase__2b744 > div[aria-label] {
     display: flex;
     flex-direction: var(--server-list-directrion);
     gap: var(--server-icons-spacing);
