@@ -503,7 +503,11 @@ h5 {
 .root-1CAIjD,
 .userProfileOuterUnthemed-2b2rsv,
 .userProfileInnerThemedNonPremium__3d0a6,
-.wrapper_a7e7a8 {
+.wrapper_a7e7a8,
+.member_b44d5d,
+.container_ca50b9,
+.chatContent__5dca8,
+.contentRegionScroller__86c79 {
     background: transparent !important;
 }
 
@@ -519,7 +523,7 @@ h5 {
 }
 
 #app-mount .title_b7d661 .searchBar_e0c60b {
-    background: var(--background-secondary);
+    border-radius: var(--interactive-border-radius);
 }
 #app-mount .title_b7d661 .children__32014::after {
     content: none;
@@ -618,7 +622,8 @@ div[class*="defaultIndicator"],
 .wrapper-2olG5t,
 .upload-vLbqu-,
 .circleIconButton-1VxDrg,
-.role-23oyrw {
+.role-23oyrw,
+.wrapper_f46140 {
     color: var(--main-text-color);
     background: var(--main-gradient);
     border-radius: var(--interactive-border-radius);
